@@ -111,6 +111,7 @@
 		8EF0E7781EEA822D00A04F82 /* XXiOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				8EF0E7E21EEAA91100A04F82 /* TESss */,
 				8EF0E7D71EEAA7D500A04F82 /* General */,
 				8EF0E7DD1EEAA7D500A04F82 /* Helper */,
 				8EF0E7AE1EEA82CF00A04F82 /* Module（模块） */,
@@ -284,6 +285,13 @@
 			children = (
 			);
 			path = Vendor;
+			sourceTree = "<group>";
+		};
+		8EF0E7E21EEAA91100A04F82 /* TESss */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TESss;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
