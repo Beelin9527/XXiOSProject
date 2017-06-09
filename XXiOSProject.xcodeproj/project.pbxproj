@@ -111,8 +111,8 @@
 		8EF0E7781EEA822D00A04F82 /* XXiOSProject */ = {
 			isa = PBXGroup;
 			children = (
-				8EF0E7CC1EEAA19000A04F82 /* General */,
-				8EF0E7D21EEAA19000A04F82 /* Helper */,
+				8EF0E7D71EEAA7D500A04F82 /* General */,
+				8EF0E7DD1EEAA7D500A04F82 /* Helper */,
 				8EF0E7AE1EEA82CF00A04F82 /* Module（模块） */,
 				8EF0E7791EEA822D00A04F82 /* Supporting Files */,
 			);
@@ -200,86 +200,86 @@
 			path = Lucas;
 			sourceTree = "<group>";
 		};
-		8EF0E7CC1EEAA19000A04F82 /* General */ = {
+		8EF0E7D71EEAA7D500A04F82 /* General */ = {
 			isa = PBXGroup;
 			children = (
-				8EF0E7CD1EEAA19000A04F82 /* BaseClass */,
-				8EF0E7CE1EEAA19000A04F82 /* Controls */,
-				8EF0E7CF1EEAA19000A04F82 /* DataBase */,
-				8EF0E7D01EEAA19000A04F82 /* Global */,
-				8EF0E7D11EEAA19000A04F82 /* NetWork */,
+				8EF0E7D81EEAA7D500A04F82 /* BaseClass */,
+				8EF0E7D91EEAA7D500A04F82 /* Controls */,
+				8EF0E7DA1EEAA7D500A04F82 /* DataBase */,
+				8EF0E7DB1EEAA7D500A04F82 /* Global */,
+				8EF0E7DC1EEAA7D500A04F82 /* NetWork */,
 			);
 			path = General;
 			sourceTree = "<group>";
 		};
-		8EF0E7CD1EEAA19000A04F82 /* BaseClass */ = {
+		8EF0E7D81EEAA7D500A04F82 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
 		};
-		8EF0E7CE1EEAA19000A04F82 /* Controls */ = {
+		8EF0E7D91EEAA7D500A04F82 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Controls;
 			sourceTree = "<group>";
 		};
-		8EF0E7CF1EEAA19000A04F82 /* DataBase */ = {
+		8EF0E7DA1EEAA7D500A04F82 /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = DataBase;
 			sourceTree = "<group>";
 		};
-		8EF0E7D01EEAA19000A04F82 /* Global */ = {
+		8EF0E7DB1EEAA7D500A04F82 /* Global */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Global;
 			sourceTree = "<group>";
 		};
-		8EF0E7D11EEAA19000A04F82 /* NetWork */ = {
+		8EF0E7DC1EEAA7D500A04F82 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = NetWork;
 			sourceTree = "<group>";
 		};
-		8EF0E7D21EEAA19000A04F82 /* Helper */ = {
+		8EF0E7DD1EEAA7D500A04F82 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				8EF0E7D31EEAA19000A04F82 /* Category */,
-				8EF0E7D41EEAA19000A04F82 /* NetWork */,
-				8EF0E7D51EEAA19000A04F82 /* Tools */,
-				8EF0E7D61EEAA19000A04F82 /* Vendor */,
+				8EF0E7DE1EEAA7D500A04F82 /* Category */,
+				8EF0E7DF1EEAA7D500A04F82 /* NetWork */,
+				8EF0E7E01EEAA7D500A04F82 /* Tools */,
+				8EF0E7E11EEAA7D500A04F82 /* Vendor */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		8EF0E7D31EEAA19000A04F82 /* Category */ = {
+		8EF0E7DE1EEAA7D500A04F82 /* Category */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		8EF0E7D41EEAA19000A04F82 /* NetWork */ = {
+		8EF0E7DF1EEAA7D500A04F82 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = NetWork;
 			sourceTree = "<group>";
 		};
-		8EF0E7D51EEAA19000A04F82 /* Tools */ = {
+		8EF0E7E01EEAA7D500A04F82 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		8EF0E7D61EEAA19000A04F82 /* Vendor */ = {
+		8EF0E7E11EEAA7D500A04F82 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -657,6 +657,7 @@
 				8EF0E7A51EEA822E00A04F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EF0E7A61EEA822E00A04F82 /* Build configuration list for PBXNativeTarget "XXiOSProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +666,7 @@
 				8EF0E7A81EEA822E00A04F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EF0E7A91EEA822E00A04F82 /* Build configuration list for PBXNativeTarget "XXiOSProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -673,6 +675,7 @@
 				8EF0E7AB1EEA822E00A04F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
