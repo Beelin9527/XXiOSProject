@@ -1,0 +1,44 @@
+//
+//  XXNavigationController.m
+//  BaseFramework
+//
+//  Created by Mantis-man on 16/1/16.
+//  Copyright © 2016年 Mantis-man. All rights reserved.
+//
+
+#import "XXNavigationController.h"
+
+@implementation XXNavigationController
+
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    //[[UINavigationBar appearance] setBackgroundImage:[UIImage imageWithColor:ColorMain] forBarMetrics:UIBarMetricsDefault];
+    
+//    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"ic_return_normal"]];
+//    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"ic_return_normal"]];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     @{NSForegroundColorAttributeName:[UIColor whiteColor],
+       NSFontAttributeName: [UIFont systemFontOfSize:16]}];
+    
+    [[UIBarButtonItem appearance] setTitleTextAttributes:
+     @{NSForegroundColorAttributeName:[UIColor whiteColor],
+       NSFontAttributeName: [UIFont systemFontOfSize:16]}
+                                                forState:UIControlStateNormal];
+}
+
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    
+    UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStyleDone target:self action:nil];
+    
+    viewController.navigationItem.backBarButtonItem = item;
+    
+    [super pushViewController:viewController animated:animated];
+    
+    
+}
+@end

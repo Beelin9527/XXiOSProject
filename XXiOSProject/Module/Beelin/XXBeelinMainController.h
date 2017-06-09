@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XXBeelinMainController.h
 //  XXiOSProject
 //
 //  Created by Beelin on 17/6/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XXBeelinMainController : UIViewController
 
 @end
-
