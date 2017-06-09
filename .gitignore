@@ -19,6 +19,12 @@ xcuserdata/
 .DS_Store
 *.DS_Store
 
+# .gitignore文件内容如下：
+# Ignore everything in this directory 
+* 
+# Except this file 
+!.gitignore 
+
 ## Other
 *.moved-aside
 *.xccheckout
