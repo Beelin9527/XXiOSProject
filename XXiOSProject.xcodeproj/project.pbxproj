@@ -18,6 +18,7 @@
 		8E95DC3B1EF10F8200248A32 /* XXNavigationControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC381EF10F8200248A32 /* XXNavigationControllerManager.m */; };
 		8E95DC3C1EF10F8200248A32 /* XXTabBarControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC3A1EF10F8200248A32 /* XXTabBarControllerManager.m */; };
 		8E95DC3F1EF10FC900248A32 /* AppDelegate+XXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC3E1EF10FC900248A32 /* AppDelegate+XXHelper.m */; };
+		8E95DC421EF1127D00248A32 /* XXResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC411EF1127D00248A32 /* XXResource.m */; };
 		8EF0E77B1EEA822D00A04F82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77A1EEA822D00A04F82 /* main.m */; };
 		8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77D1EEA822D00A04F82 /* AppDelegate.m */; };
 		8EF0E7861EEA822D00A04F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0E7851EEA822D00A04F82 /* Assets.xcassets */; };
@@ -62,6 +63,8 @@
 		8E95DC3A1EF10F8200248A32 /* XXTabBarControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTabBarControllerManager.m; sourceTree = "<group>"; };
 		8E95DC3D1EF10FC900248A32 /* AppDelegate+XXHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+XXHelper.h"; sourceTree = "<group>"; };
 		8E95DC3E1EF10FC900248A32 /* AppDelegate+XXHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+XXHelper.m"; sourceTree = "<group>"; };
+		8E95DC401EF1127D00248A32 /* XXResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXResource.h; sourceTree = "<group>"; };
+		8E95DC411EF1127D00248A32 /* XXResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXResource.m; sourceTree = "<group>"; };
 		8EF0E7761EEA822D00A04F82 /* XXiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF0E77A1EEA822D00A04F82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EF0E77C1EEA822D00A04F82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = XXiOSProject/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -139,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				8EF0E7851EEA822D00A04F82 /* Assets.xcassets */,
+				8E95DC401EF1127D00248A32 /* XXResource.h */,
+				8E95DC411EF1127D00248A32 /* XXResource.m */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -466,6 +471,7 @@
 				8EF0E7C81EEA9CCB00A04F82 /* XXHanlMainController.m in Sources */,
 				8EF0E7C51EEA9CB700A04F82 /* XXBeelinMainController.m in Sources */,
 				8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */,
+				8E95DC421EF1127D00248A32 /* XXResource.m in Sources */,
 				8EF0E77B1EEA822D00A04F82 /* main.m in Sources */,
 				8E95DC3B1EF10F8200248A32 /* XXNavigationControllerManager.m in Sources */,
 			);
