@@ -8,7 +8,9 @@
 
 #import "AppDelegate.h"
 
-#import "XXTabBarController.h"
+#import "XXTabBarControllerManager.h"
+
+#import "AppDelegate+XXHelper.h"
 @interface AppDelegate ()
 
 @end
@@ -19,13 +21,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    XXTabBarController *tabBarController = [[XXTabBarController alloc]init];
+    XXTabBarControllerManager *tabBarController = [[XXTabBarControllerManager alloc]init];
     window.rootViewController = tabBarController;
     window.backgroundColor = [UIColor whiteColor];
     [window makeKeyAndVisible];
     self.window = window;
     
-    [self registerAPNs];
+    [self xx_registerAPNs];
     
     return YES;
 }
@@ -58,14 +60,5 @@
 }
 
 
-#pragma mark - 注册推送
-- (void)registerAPNs {
-    if ([[UIApplication sharedApplication] respondsToSelector:@selector(registerForRemoteNotifications)]) {
-        UIUserNotificationType types = UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert;
-        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:types
-                                                                                 categories:nil];
-        [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
-        [[UIApplication sharedApplication] registerForRemoteNotifications];
-    }
-}
+
 @end

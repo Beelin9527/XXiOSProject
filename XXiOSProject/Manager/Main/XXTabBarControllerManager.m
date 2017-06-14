@@ -1,18 +1,18 @@
 //
-//  XXTabBarController.m
+//  XXTabBarControllerManager.m
 //  BaseFramework
 //
 //  Created by Mantis-man on 16/1/16.
 //  Copyright © 2016年 Mantis-man. All rights reserved.
 //
 
-#import "XXTabBarController.h"
-#import "XXNavigationController.h"
+#import "XXTabBarControllerManager.h"
+#import "XXNavigationControllerManager.h"
 
 #import "XXBeelinMainController.h"
 #import "XXLucasMainController.h"
 #import "XXHanlMainController.h"
-@implementation XXTabBarController
+@implementation XXTabBarControllerManager
 
 - (instancetype)init{
     if (self = [super init]) {
@@ -41,7 +41,7 @@
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
     
     // 包装一个导航控制器, 添加导航控制器为tabbarcontroller的子控制器
-    XXNavigationController *nav = [[XXNavigationController alloc] initWithRootViewController:vc];
+    XXNavigationControllerManager *nav = [[XXNavigationControllerManager alloc] initWithRootViewController:vc];
     [self addChildViewController:nav];
 }
 

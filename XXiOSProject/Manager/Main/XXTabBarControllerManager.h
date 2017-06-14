@@ -1,5 +1,5 @@
 //
-//  ZPNavigationController.h
+//  XXTabBarControllerManager.h
 //  BaseFramework
 //
 //  Created by Mantis-man on 16/1/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XXNavigationController : UINavigationController
+@interface XXTabBarControllerManager : UITabBarController
 
 @end
