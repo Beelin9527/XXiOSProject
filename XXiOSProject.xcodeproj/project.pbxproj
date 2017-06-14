@@ -8,17 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8E95DC151EF10B8E00248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC141EF10B8E00248A32 /* .gitkeep */; };
-		8E95DC251EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC181EF10C7100248A32 /* .gitkeep */; };
 		8E95DC271EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC1C1EF10C7100248A32 /* .gitkeep */; };
 		8E95DC281EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC1E1EF10C7100248A32 /* .gitkeep */; };
 		8E95DC291EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC201EF10C7100248A32 /* .gitkeep */; };
-		8E95DC2A1EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC221EF10C7100248A32 /* .gitkeep */; };
 		8E95DC2B1EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC241EF10C7100248A32 /* .gitkeep */; };
 		8E95DC351EF10F6B00248A32 /* XXBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC341EF10F6B00248A32 /* XXBaseClass.m */; };
 		8E95DC3B1EF10F8200248A32 /* XXNavigationControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC381EF10F8200248A32 /* XXNavigationControllerManager.m */; };
 		8E95DC3C1EF10F8200248A32 /* XXTabBarControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC3A1EF10F8200248A32 /* XXTabBarControllerManager.m */; };
 		8E95DC3F1EF10FC900248A32 /* AppDelegate+XXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC3E1EF10FC900248A32 /* AppDelegate+XXHelper.m */; };
 		8E95DC421EF1127D00248A32 /* XXResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC411EF1127D00248A32 /* XXResource.m */; };
+		8E95DC451EF113CF00248A32 /* XXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC441EF113CF00248A32 /* XXConst.m */; };
 		8EF0E77B1EEA822D00A04F82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77A1EEA822D00A04F82 /* main.m */; };
 		8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77D1EEA822D00A04F82 /* AppDelegate.m */; };
 		8EF0E7861EEA822D00A04F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0E7851EEA822D00A04F82 /* Assets.xcassets */; };
@@ -49,11 +48,9 @@
 
 /* Begin PBXFileReference section */
 		8E95DC141EF10B8E00248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		8E95DC181EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC1C1EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC1E1EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC201EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		8E95DC221EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC241EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC331EF10F6B00248A32 /* XXBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBaseClass.h; sourceTree = "<group>"; };
 		8E95DC341EF10F6B00248A32 /* XXBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBaseClass.m; sourceTree = "<group>"; };
@@ -65,6 +62,10 @@
 		8E95DC3E1EF10FC900248A32 /* AppDelegate+XXHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+XXHelper.m"; sourceTree = "<group>"; };
 		8E95DC401EF1127D00248A32 /* XXResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXResource.h; sourceTree = "<group>"; };
 		8E95DC411EF1127D00248A32 /* XXResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXResource.m; sourceTree = "<group>"; };
+		8E95DC431EF113CF00248A32 /* XXConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXConst.h; sourceTree = "<group>"; };
+		8E95DC441EF113CF00248A32 /* XXConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXConst.m; sourceTree = "<group>"; };
+		8E95DC461EF113F300248A32 /* XXMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXMacros.h; sourceTree = "<group>"; };
+		8E95DC471EF1143100248A32 /* SwizzlingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
 		8EF0E7761EEA822D00A04F82 /* XXiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF0E77A1EEA822D00A04F82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EF0E77C1EEA822D00A04F82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = XXiOSProject/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -151,7 +152,6 @@
 		8E95DC171EF10C7100248A32 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				8E95DC181EF10C7100248A32 /* .gitkeep */,
 				8E95DC191EF10C7100248A32 /* BaseClass */,
 				8E95DC1B1EF10C7100248A32 /* Category */,
 				8E95DC1D1EF10C7100248A32 /* Controls */,
@@ -198,7 +198,10 @@
 		8E95DC211EF10C7100248A32 /* Global */ = {
 			isa = PBXGroup;
 			children = (
-				8E95DC221EF10C7100248A32 /* .gitkeep */,
+				8E95DC461EF113F300248A32 /* XXMacros.h */,
+				8E95DC431EF113CF00248A32 /* XXConst.h */,
+				8E95DC441EF113CF00248A32 /* XXConst.m */,
+				8E95DC471EF1143100248A32 /* SwizzlingDefine.h */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -433,10 +436,8 @@
 			files = (
 				8E95DC151EF10B8E00248A32 /* .gitkeep in Resources */,
 				8EF0E7891EEA822D00A04F82 /* LaunchScreen.storyboard in Resources */,
-				8E95DC2A1EF10C7100248A32 /* .gitkeep in Resources */,
 				8E95DC271EF10C7100248A32 /* .gitkeep in Resources */,
 				8EF0E7861EEA822D00A04F82 /* Assets.xcassets in Resources */,
-				8E95DC251EF10C7100248A32 /* .gitkeep in Resources */,
 				8E95DC2B1EF10C7100248A32 /* .gitkeep in Resources */,
 				8E95DC281EF10C7100248A32 /* .gitkeep in Resources */,
 				8E95DC291EF10C7100248A32 /* .gitkeep in Resources */,
@@ -470,6 +471,7 @@
 				8E95DC3C1EF10F8200248A32 /* XXTabBarControllerManager.m in Sources */,
 				8EF0E7C81EEA9CCB00A04F82 /* XXHanlMainController.m in Sources */,
 				8EF0E7C51EEA9CB700A04F82 /* XXBeelinMainController.m in Sources */,
+				8E95DC451EF113CF00248A32 /* XXConst.m in Sources */,
 				8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */,
 				8E95DC421EF1127D00248A32 /* XXResource.m in Sources */,
 				8EF0E77B1EEA822D00A04F82 /* main.m in Sources */,
