@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B2957D984A1A5358330F657 /* libPods-XXiOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */; };
 		8E95DC151EF10B8E00248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC141EF10B8E00248A32 /* .gitkeep */; };
-		8E95DC271EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC1C1EF10C7100248A32 /* .gitkeep */; };
 		8E95DC281EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC1E1EF10C7100248A32 /* .gitkeep */; };
 		8E95DC291EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC201EF10C7100248A32 /* .gitkeep */; };
 		8E95DC2B1EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC241EF10C7100248A32 /* .gitkeep */; };
@@ -18,6 +18,7 @@
 		8E95DC3F1EF10FC900248A32 /* AppDelegate+XXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC3E1EF10FC900248A32 /* AppDelegate+XXHelper.m */; };
 		8E95DC421EF1127D00248A32 /* XXResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC411EF1127D00248A32 /* XXResource.m */; };
 		8E95DC451EF113CF00248A32 /* XXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC441EF113CF00248A32 /* XXConst.m */; };
+		8EA01F8A1EFCBBE400353789 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA01F891EFCBBE400353789 /* UIImage+Color.m */; };
 		8EF0E77B1EEA822D00A04F82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77A1EEA822D00A04F82 /* main.m */; };
 		8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77D1EEA822D00A04F82 /* AppDelegate.m */; };
 		8EF0E7861EEA822D00A04F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0E7851EEA822D00A04F82 /* Assets.xcassets */; };
@@ -47,8 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XXiOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B1A296F7304A9BAE15F716 /* Pods-XXiOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXiOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		8E95DC141EF10B8E00248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		8E95DC1C1EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC1E1EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC201EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC241EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -66,6 +68,8 @@
 		8E95DC441EF113CF00248A32 /* XXConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXConst.m; sourceTree = "<group>"; };
 		8E95DC461EF113F300248A32 /* XXMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXMacros.h; sourceTree = "<group>"; };
 		8E95DC471EF1143100248A32 /* SwizzlingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
+		8EA01F881EFCBBE400353789 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		8EA01F891EFCBBE400353789 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		8EF0E7761EEA822D00A04F82 /* XXiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF0E77A1EEA822D00A04F82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EF0E77C1EEA822D00A04F82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = XXiOSProject/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -85,6 +89,7 @@
 		8EF0E7C71EEA9CCB00A04F82 /* XXHanlMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXHanlMainController.m; sourceTree = "<group>"; };
 		8EF0E7C91EEA9CDA00A04F82 /* XXLucasMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXLucasMainController.h; sourceTree = "<group>"; };
 		8EF0E7CA1EEA9CDA00A04F82 /* XXLucasMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXLucasMainController.m; sourceTree = "<group>"; };
+		9B9B3A45A6C8C18B55A44821 /* Pods-XXiOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXiOSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2957D984A1A5358330F657 /* libPods-XXiOSProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +118,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A04C787FD4EAB76753F81EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B9B3A45A6C8C18B55A44821 /* Pods-XXiOSProject.debug.xcconfig */,
+				88B1A296F7304A9BAE15F716 /* Pods-XXiOSProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8E95DC0B1EF1095F00248A32 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +189,7 @@
 		8E95DC1B1EF10C7100248A32 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				8E95DC1C1EF10C7100248A32 /* .gitkeep */,
+				8EA01F871EFCBB2E00353789 /* UIImage */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -225,6 +240,15 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		8EA01F871EFCBB2E00353789 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				8EA01F881EFCBBE400353789 /* UIImage+Color.h */,
+				8EA01F891EFCBBE400353789 /* UIImage+Color.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
 		8EF0E76D1EEA822D00A04F82 = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +256,8 @@
 				8EF0E7921EEA822D00A04F82 /* XXiOSProjectTests */,
 				8EF0E79D1EEA822E00A04F82 /* XXiOSProjectUITests */,
 				8EF0E7771EEA822D00A04F82 /* Products */,
+				7A04C787FD4EAB76753F81EE /* Pods */,
+				DE93F45DDBDB7CB84DF0FFC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -248,12 +274,12 @@
 		8EF0E7781EEA822D00A04F82 /* XXiOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				8EF0E7AE1EEA82CF00A04F82 /* Module（模块） */,
+				8E95DC0B1EF1095F00248A32 /* AppDelegate */,
 				8E95DC171EF10C7100248A32 /* Utils */,
 				8E95DC161EF10BAA00248A32 /* Resource */,
 				8E95DC131EF10B8E00248A32 /* Vendor */,
 				8E95DC0F1EF10B0400248A32 /* Manager */,
-				8E95DC0B1EF1095F00248A32 /* AppDelegate */,
-				8EF0E7AE1EEA82CF00A04F82 /* Module（模块） */,
 				8EF0E7791EEA822D00A04F82 /* Supporting Files */,
 			);
 			path = XXiOSProject;
@@ -325,6 +351,14 @@
 			path = Lucas;
 			sourceTree = "<group>";
 		};
+		DE93F45DDBDB7CB84DF0FFC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -332,9 +366,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EF0E7A31EEA822E00A04F82 /* Build configuration list for PBXNativeTarget "XXiOSProject" */;
 			buildPhases = (
+				2DACBDAB50EB6F381B9BA7DB /* [CP] Check Pods Manifest.lock */,
 				8EF0E7721EEA822D00A04F82 /* Sources */,
 				8EF0E7731EEA822D00A04F82 /* Frameworks */,
 				8EF0E7741EEA822D00A04F82 /* Resources */,
+				DEC1F6B93D5F47562FE2353B /* [CP] Embed Pods Frameworks */,
+				37564F35282BEEC31E3EBE01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -436,7 +473,6 @@
 			files = (
 				8E95DC151EF10B8E00248A32 /* .gitkeep in Resources */,
 				8EF0E7891EEA822D00A04F82 /* LaunchScreen.storyboard in Resources */,
-				8E95DC271EF10C7100248A32 /* .gitkeep in Resources */,
 				8EF0E7861EEA822D00A04F82 /* Assets.xcassets in Resources */,
 				8E95DC2B1EF10C7100248A32 /* .gitkeep in Resources */,
 				8E95DC281EF10C7100248A32 /* .gitkeep in Resources */,
@@ -460,6 +496,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DACBDAB50EB6F381B9BA7DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37564F35282BEEC31E3EBE01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC1F6B93D5F47562FE2353B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8EF0E7721EEA822D00A04F82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -474,6 +558,7 @@
 				8E95DC451EF113CF00248A32 /* XXConst.m in Sources */,
 				8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */,
 				8E95DC421EF1127D00248A32 /* XXResource.m in Sources */,
+				8EA01F8A1EFCBBE400353789 /* UIImage+Color.m in Sources */,
 				8EF0E77B1EEA822D00A04F82 /* main.m in Sources */,
 				8E95DC3B1EF10F8200248A32 /* XXNavigationControllerManager.m in Sources */,
 			);
@@ -612,6 +697,7 @@
 		};
 		8EF0E7A41EEA822E00A04F82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B9B3A45A6C8C18B55A44821 /* Pods-XXiOSProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 68SA3JHC33;
@@ -625,6 +711,7 @@
 		};
 		8EF0E7A51EEA822E00A04F82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B1A296F7304A9BAE15F716 /* Pods-XXiOSProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 68SA3JHC33;

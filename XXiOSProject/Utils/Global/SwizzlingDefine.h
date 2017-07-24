@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
-#ifndef NIM_SwizzlingDefine_h
-#define NIM_SwizzlingDefine_h
+#ifndef SwizzlingDefine_h
+#define SwizzlingDefine_h
 #import <objc/runtime.h>
 static inline void swizzling_exchangeMethod(Class clazz ,SEL originalSelector, SEL swizzledSelector){
     Method originalMethod = class_getInstanceMethod(clazz, originalSelector);

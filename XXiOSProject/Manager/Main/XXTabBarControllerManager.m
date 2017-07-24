@@ -25,6 +25,11 @@
         
         XXHanlMainController *hanl = [[XXHanlMainController alloc]init];
         [self setupChildVc:hanl title:@"hanl" image:nil selectedImage:nil];
+        
+        //设置未选中字体颜色
+        [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:@"", NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
+        //设置选中字体颜色
+        [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:@"", NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
     }
     return self;
 }
@@ -37,8 +42,8 @@
     // 设置文字和图片
     vc.title = title;
     
-    vc.tabBarItem.image = [UIImage imageNamed:image];
-    vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
+    [vc.tabBarItem setImage:[[UIImage imageNamed:image] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    vc.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     // 包装一个导航控制器, 添加导航控制器为tabbarcontroller的子控制器
     XXNavigationControllerManager *nav = [[XXNavigationControllerManager alloc] initWithRootViewController:vc];
