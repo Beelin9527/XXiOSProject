@@ -9,29 +9,114 @@
 #import "XXBeelinMainController.h"
 
 @interface XXBeelinMainController ()
-
+@property (nonatomic, strong) UILabel *lab;
+@property (nonatomic, strong) UIView *boxView;
 @end
 
 @implementation XXBeelinMainController
 
+#pragma mark - Life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self initConfig];
+    
+    [self addSubviews];
+    
+    [self setupSubviewsFrame];
+    
+    [self addObservers];
+    
+    [self requestXXX];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
+- (void)dealloc {
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)initConfig {
+    
 }
-*/
 
+- (void)addSubviews {
+    [self.view addSubview:self.lab];
+    [self.view addSubview:self.boxView];
+    
+    [self.view addSubview:({
+        UILabel *lab = [UILabel new];
+        lab.text = @"title";
+        lab;
+    })];
+}
+
+-(void)setupSubviewsFrame {
+    
+}
+
+- (void)addObservers {
+    
+}
+#pragma mark - Delegate
+
+#pragma mark - Event Responser
+
+#pragma mark - Observer Imp
+
+#pragma mark - Request
+- (void)requestXXX {
+    
+}
+#pragma mark - public Method
+
+#pragma mark - private Method
+- (void)p_xx {
+    
+}
+
+- (void)p_xxx {
+    
+}
+
+#pragma mark - Setter
+
+#pragma mark - Getter
+- (UILabel *)lab {
+    if (!_lab) {
+        _lab = [UILabel new];
+    }
+    return _lab;
+}
+
+- (UIView *)boxView {
+    if (!_boxView) {
+        _boxView = [UIView new];
+        
+        //red view
+        [_boxView addSubview:({
+            UIView *redView = [UIView new];
+            redView.backgroundColor = [UIColor redColor];
+            redView;
+        })];
+        
+        //green view
+        [_boxView addSubview:({
+            UIView *greenView = [UIView new];
+            greenView.backgroundColor = [UIColor greenColor];
+            greenView;
+        })];
+        
+        UIView *greenView = [UIView new];
+        greenView.backgroundColor = [UIColor greenColor];
+        [_boxView addSubview:greenView];
+    }
+    return _boxView;
+}
 @end
