@@ -21,14 +21,14 @@
 //    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"ic_return_normal"]];
 //    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"ic_return_normal"]];
     
-    [[UINavigationBar appearance] setTitleTextAttributes:
-     @{NSForegroundColorAttributeName:[UIColor whiteColor],
-       NSFontAttributeName: [UIFont systemFontOfSize:16]}];
-    
-    [[UIBarButtonItem appearance] setTitleTextAttributes:
-     @{NSForegroundColorAttributeName:[UIColor whiteColor],
-       NSFontAttributeName: [UIFont systemFontOfSize:16]}
-                                                forState:UIControlStateNormal];
+//    [[UINavigationBar appearance] setTitleTextAttributes:
+//     @{NSForegroundColorAttributeName:[UIColor whiteColor],
+//       NSFontAttributeName: [UIFont systemFontOfSize:16]}];
+//    
+//    [[UIBarButtonItem appearance] setTitleTextAttributes:
+//     @{NSForegroundColorAttributeName:[UIColor whiteColor],
+//       NSFontAttributeName: [UIFont systemFontOfSize:16]}
+//                                                forState:UIControlStateNormal];
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{

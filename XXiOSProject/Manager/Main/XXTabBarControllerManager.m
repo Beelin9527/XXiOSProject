@@ -20,16 +20,16 @@
         XXBeelinMainController *beelin = [[XXBeelinMainController alloc]init];
         [self setupChildVc:beelin title:@"beelin" image:nil selectedImage:nil];
         
-        XXLucasMainController *lucas = [[XXLucasMainController alloc]init];
+        XXLucasMainController *lucas = [[XXLucasMainController alloc] init];
         [self setupChildVc:lucas title:@"lucas" image:nil selectedImage:nil];
         
         XXHanlMainController *hanl = [[XXHanlMainController alloc]init];
         [self setupChildVc:hanl title:@"hanl" image:nil selectedImage:nil];
         
         //设置未选中字体颜色
-        [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:@"", NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
+        [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor greenColor], NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
         //设置选中字体颜色
-        [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:@"", NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
+        [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor redColor], NSForegroundColorAttributeName, nil] forState:UIControlStateSelected];
     }
     return self;
 }

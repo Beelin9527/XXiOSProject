@@ -18,6 +18,8 @@
 		8E95DC3F1EF10FC900248A32 /* AppDelegate+XXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC3E1EF10FC900248A32 /* AppDelegate+XXHelper.m */; };
 		8E95DC421EF1127D00248A32 /* XXResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC411EF1127D00248A32 /* XXResource.m */; };
 		8E95DC451EF113CF00248A32 /* XXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC441EF113CF00248A32 /* XXConst.m */; };
+		8E9806F61F4D1F6D0000850D /* XXLucasMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9806F51F4D1F6D0000850D /* XXLucasMainController.xib */; };
+		8E9806F91F4D236C0000850D /* XXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9806F81F4D236C0000850D /* XXTestViewController.m */; };
 		8EA01F8A1EFCBBE400353789 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA01F891EFCBBE400353789 /* UIImage+Color.m */; };
 		8EF0E77B1EEA822D00A04F82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77A1EEA822D00A04F82 /* main.m */; };
 		8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77D1EEA822D00A04F82 /* AppDelegate.m */; };
@@ -68,6 +70,9 @@
 		8E95DC441EF113CF00248A32 /* XXConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXConst.m; sourceTree = "<group>"; };
 		8E95DC461EF113F300248A32 /* XXMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXMacros.h; sourceTree = "<group>"; };
 		8E95DC471EF1143100248A32 /* SwizzlingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
+		8E9806F51F4D1F6D0000850D /* XXLucasMainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XXLucasMainController.xib; sourceTree = "<group>"; };
+		8E9806F71F4D236C0000850D /* XXTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTestViewController.h; sourceTree = "<group>"; };
+		8E9806F81F4D236C0000850D /* XXTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTestViewController.m; sourceTree = "<group>"; };
 		8EA01F881EFCBBE400353789 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		8EA01F891EFCBBE400353789 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		8EF0E7761EEA822D00A04F82 /* XXiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -329,6 +334,8 @@
 			children = (
 				8EF0E7C31EEA9CB700A04F82 /* XXBeelinMainController.h */,
 				8EF0E7C41EEA9CB700A04F82 /* XXBeelinMainController.m */,
+				8E9806F71F4D236C0000850D /* XXTestViewController.h */,
+				8E9806F81F4D236C0000850D /* XXTestViewController.m */,
 			);
 			path = Beelin;
 			sourceTree = "<group>";
@@ -347,6 +354,7 @@
 			children = (
 				8EF0E7C91EEA9CDA00A04F82 /* XXLucasMainController.h */,
 				8EF0E7CA1EEA9CDA00A04F82 /* XXLucasMainController.m */,
+				8E9806F51F4D1F6D0000850D /* XXLucasMainController.xib */,
 			);
 			path = Lucas;
 			sourceTree = "<group>";
@@ -476,6 +484,7 @@
 				8EF0E7861EEA822D00A04F82 /* Assets.xcassets in Resources */,
 				8E95DC2B1EF10C7100248A32 /* .gitkeep in Resources */,
 				8E95DC281EF10C7100248A32 /* .gitkeep in Resources */,
+				8E9806F61F4D1F6D0000850D /* XXLucasMainController.xib in Resources */,
 				8E95DC291EF10C7100248A32 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,6 +566,7 @@
 				8EF0E7C51EEA9CB700A04F82 /* XXBeelinMainController.m in Sources */,
 				8E95DC451EF113CF00248A32 /* XXConst.m in Sources */,
 				8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */,
+				8E9806F91F4D236C0000850D /* XXTestViewController.m in Sources */,
 				8E95DC421EF1127D00248A32 /* XXResource.m in Sources */,
 				8EA01F8A1EFCBBE400353789 /* UIImage+Color.m in Sources */,
 				8EF0E77B1EEA822D00A04F82 /* main.m in Sources */,
@@ -700,12 +710,15 @@
 			baseConfigurationReference = 9B9B3A45A6C8C18B55A44821 /* Pods-XXiOSProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 68SA3JHC33;
 				INFOPLIST_FILE = XXiOSProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.xx.XXiOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -714,12 +727,15 @@
 			baseConfigurationReference = 88B1A296F7304A9BAE15F716 /* Pods-XXiOSProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 68SA3JHC33;
 				INFOPLIST_FILE = XXiOSProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.xx.XXiOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

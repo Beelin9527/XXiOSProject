@@ -21,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    XXTabBarControllerManager *tabBarController = [[XXTabBarControllerManager alloc]init];
+    XXTabBarControllerManager *tabBarController = [[XXTabBarControllerManager alloc] init];
     window.rootViewController = tabBarController;
     window.backgroundColor = [UIColor whiteColor];
     [window makeKeyAndVisible];

@@ -20,14 +20,15 @@
     [super viewDidLoad];
     
     [self initConfig];
+    //
+    //    [self addSubviews];
+    //
+    //    [self setupSubviewsFrame];
+    //
+    //    [self addObservers];
+    //
+    //    [self requestXXX];
     
-    [self addSubviews];
-    
-    [self setupSubviewsFrame];
-    
-    [self addObservers];
-    
-    [self requestXXX];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -43,12 +44,25 @@
 }
 
 - (void)initConfig {
-    
+    //        self.title = @"";
+    self.view.backgroundColor = [UIColor greenColor];
 }
 
 - (void)addSubviews {
     [self.view addSubview:self.lab];
     [self.view addSubview:self.boxView];
+    
+    [self.view addSubview:({
+        UILabel *lab = [UILabel new];
+        lab.text = @"title";
+        lab;
+    })];
+    
+    [self.view addSubview:({
+        UILabel *lab = [UILabel new];
+        lab.text = @"title";
+        lab;
+    })];
     
     [self.view addSubview:({
         UILabel *lab = [UILabel new];
@@ -113,10 +127,8 @@
             greenView;
         })];
         
-        UIView *greenView = [UIView new];
-        greenView.backgroundColor = [UIColor greenColor];
-        [_boxView addSubview:greenView];
     }
     return _boxView;
 }
+
 @end
