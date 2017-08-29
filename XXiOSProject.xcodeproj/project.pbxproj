@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2B2957D984A1A5358330F657 /* libPods-XXiOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */; };
 		8E95DC151EF10B8E00248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC141EF10B8E00248A32 /* .gitkeep */; };
-		8E95DC281EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC1E1EF10C7100248A32 /* .gitkeep */; };
 		8E95DC291EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC201EF10C7100248A32 /* .gitkeep */; };
 		8E95DC2B1EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC241EF10C7100248A32 /* .gitkeep */; };
 		8E95DC351EF10F6B00248A32 /* XXBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC341EF10F6B00248A32 /* XXBaseClass.m */; };
@@ -54,7 +53,6 @@
 		13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XXiOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B1A296F7304A9BAE15F716 /* Pods-XXiOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXiOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		8E95DC141EF10B8E00248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		8E95DC1E1EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC201EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC241EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC331EF10F6B00248A32 /* XXBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBaseClass.h; sourceTree = "<group>"; };
@@ -205,7 +203,6 @@
 		8E95DC1D1EF10C7100248A32 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
-				8E95DC1E1EF10C7100248A32 /* .gitkeep */,
 				8EEEBA921F558188000F6ED3 /* XXBannerView.h */,
 				8EEEBA931F558188000F6ED3 /* XXBannerView.m */,
 			);
@@ -488,7 +485,6 @@
 				8EF0E7891EEA822D00A04F82 /* LaunchScreen.storyboard in Resources */,
 				8EF0E7861EEA822D00A04F82 /* Assets.xcassets in Resources */,
 				8E95DC2B1EF10C7100248A32 /* .gitkeep in Resources */,
-				8E95DC281EF10C7100248A32 /* .gitkeep in Resources */,
 				8E9806F61F4D1F6D0000850D /* XXLucasMainController.xib in Resources */,
 				8E95DC291EF10C7100248A32 /* .gitkeep in Resources */,
 			);
