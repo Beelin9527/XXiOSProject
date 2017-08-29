@@ -21,6 +21,7 @@
 		8E9806F61F4D1F6D0000850D /* XXLucasMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9806F51F4D1F6D0000850D /* XXLucasMainController.xib */; };
 		8E9806F91F4D236C0000850D /* XXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9806F81F4D236C0000850D /* XXTestViewController.m */; };
 		8EA01F8A1EFCBBE400353789 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA01F891EFCBBE400353789 /* UIImage+Color.m */; };
+		8EEEBA941F558188000F6ED3 /* XXBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEEBA931F558188000F6ED3 /* XXBannerView.m */; };
 		8EF0E77B1EEA822D00A04F82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77A1EEA822D00A04F82 /* main.m */; };
 		8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77D1EEA822D00A04F82 /* AppDelegate.m */; };
 		8EF0E7861EEA822D00A04F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0E7851EEA822D00A04F82 /* Assets.xcassets */; };
@@ -75,6 +76,8 @@
 		8E9806F81F4D236C0000850D /* XXTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTestViewController.m; sourceTree = "<group>"; };
 		8EA01F881EFCBBE400353789 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		8EA01F891EFCBBE400353789 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		8EEEBA921F558188000F6ED3 /* XXBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBannerView.h; sourceTree = "<group>"; };
+		8EEEBA931F558188000F6ED3 /* XXBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBannerView.m; sourceTree = "<group>"; };
 		8EF0E7761EEA822D00A04F82 /* XXiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF0E77A1EEA822D00A04F82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EF0E77C1EEA822D00A04F82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = XXiOSProject/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -203,6 +206,8 @@
 			isa = PBXGroup;
 			children = (
 				8E95DC1E1EF10C7100248A32 /* .gitkeep */,
+				8EEEBA921F558188000F6ED3 /* XXBannerView.h */,
+				8EEEBA931F558188000F6ED3 /* XXBannerView.m */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -566,6 +571,7 @@
 				8EF0E7C51EEA9CB700A04F82 /* XXBeelinMainController.m in Sources */,
 				8E95DC451EF113CF00248A32 /* XXConst.m in Sources */,
 				8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */,
+				8EEEBA941F558188000F6ED3 /* XXBannerView.m in Sources */,
 				8E9806F91F4D236C0000850D /* XXTestViewController.m in Sources */,
 				8E95DC421EF1127D00248A32 /* XXResource.m in Sources */,
 				8EA01F8A1EFCBBE400353789 /* UIImage+Color.m in Sources */,

@@ -28,7 +28,6 @@
     //    [self addObservers];
     //
     //    [self requestXXX];
-    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
