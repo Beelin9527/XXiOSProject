@@ -11,10 +11,20 @@
 @class XXPageControl;
 @protocol XXBannerViewDelegate;
 
-
+/*
+ 注：自定义page control 的圆点，设置image属性
+ 默认系统page control的圆点，设置color属性
+ */
 @interface XXBannerView : UIView
-/** custom page control */
-@property (nonatomic, strong) XXPageControl *pageControl;
+/** 默认 page control 图片 */
+@property (nonatomic, strong) UIImage *pageIndicatorImage;
+/** 当前 page control 图片 */
+@property (nonatomic, strong) UIImage *currentPageIndicatorImage;
+
+/** 默认 page control 颜色 */
+@property(nonatomic,strong) UIColor *pageIndicatorTintColor;
+/** 当前 page control 颜色 */
+@property(nonatomic,strong) UIColor *currentPageIndicatorTintColor;
 
 /** delegate */
 @property (nonatomic, weak) id<XXBannerViewDelegate> delegate;

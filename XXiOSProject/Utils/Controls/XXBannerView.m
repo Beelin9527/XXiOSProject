@@ -12,6 +12,7 @@ const CGFloat kPadding = 10; //差值
 
 @interface XXBannerView() <UIScrollViewDelegate>
 @property (strong, nonatomic)  UIScrollView *scrollView;
+@property (nonatomic, strong) XXPageControl *pageControl;
 
 /** 定时器 */
 @property (nonatomic, weak) NSTimer *timer;
@@ -119,6 +120,25 @@ const CGFloat kPadding = 10; //差值
     }
 }
 
+- (void)setCurrentPageIndicatorImage:(UIImage *)currentPageIndicatorImage {
+    _currentPageIndicatorImage = currentPageIndicatorImage;
+    _pageControl.currentImage = _currentPageIndicatorImage;
+}
+
+- (void)setPageIndicatorImage:(UIImage *)pageIndicatorImage {
+    _pageIndicatorImage = pageIndicatorImage;
+    _pageControl.defaultImage = _pageIndicatorImage;
+}
+
+- (void)setCurrentPageIndicatorTintColor:(UIColor *)currentPageIndicatorTintColor {
+    _currentPageIndicatorTintColor = currentPageIndicatorTintColor;
+    _pageControl.currentPageIndicatorTintColor = _currentPageIndicatorTintColor;
+}
+
+- (void)setPageIndicatorTintColor:(UIColor *)pageIndicatorTintColor {
+    _pageIndicatorTintColor = pageIndicatorTintColor;
+    _pageControl.pageIndicatorTintColor = _pageIndicatorTintColor;
+}
 /**
  *  根据图片名数据做一些操作
  */
