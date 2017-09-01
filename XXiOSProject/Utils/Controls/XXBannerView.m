@@ -37,8 +37,6 @@ const CGFloat kPadding = 10; //差值
         [self addSubview:self.scrollView];
         [self addSubview:self.pageControl];
         
-        // 开启定时器
-        [self startTimer];
         
     }
     return self;
@@ -146,13 +144,17 @@ const CGFloat kPadding = 10; //差值
     // 判空
     if (dataSource.count == 0) return;
     
-    NSMutableArray *mDataSource = [dataSource mutableCopy];
-    // 复制最后一个对象插入第0下标
-    [mDataSource insertObject:[mDataSource lastObject] atIndex:0];
-    // 复制第一个对象插入最后下标
-    [mDataSource addObject:mDataSource[1]];
-    
-    _dataSource = mDataSource.copy;
+    if (dataSource.count == 1) {
+        _dataSource = dataSource;
+    } else {
+        NSMutableArray *mDataSource = [dataSource mutableCopy];
+        // 复制最后一个对象插入第0下标
+        [mDataSource insertObject:[mDataSource lastObject] atIndex:0];
+        // 复制第一个对象插入最后下标
+        [mDataSource addObject:mDataSource[1]];
+        
+        _dataSource = mDataSource.copy;
+    }
     
     // 先移除所有的imageView
     // 让self.scrollView.subviews数组中的所有对象都执行removeFromSuperview方法
@@ -175,13 +177,18 @@ const CGFloat kPadding = 10; //差值
         [imageView addGestureRecognizer:tap];
     }];
     
-    // 设置总页数
-    self.pageControl.numberOfPages = _dataSource.count - 2;
     
     // 设置scrollView的contentSize
     [self.scrollView setContentSize:CGSizeMake(_dataSource.count * self.bannerWidth, self.bannerHeight)];
-    //设置初始滑动到实际的第一张图位置
-    [self.scrollView setContentOffset:CGPointMake(self.bannerWidth, 0) animated:YES];
+    
+    if (self.dataSource.count > 1) {
+        // 设置总页数
+        self.pageControl.numberOfPages = _dataSource.count - 2;
+        //设置初始滑动到实际的第一张图位置
+        [self.scrollView setContentOffset:CGPointMake(self.bannerWidth, 0) animated:YES];
+        // 开启定时器
+        [self startTimer];
+    }
 }
 
 #pragma mark - Getter
