@@ -16,15 +16,15 @@
     [super viewDidLoad];
     
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
-    //[[UINavigationBar appearance] setBackgroundImage:[UIImage imageWithColor:ColorMain] forBarMetrics:UIBarMetricsDefault];
+//    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageWithColor:ColorMain] forBarMetrics:UIBarMetricsDefault];
     
 //    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"ic_return_normal"]];
 //    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"ic_return_normal"]];
-    
+//
 //    [[UINavigationBar appearance] setTitleTextAttributes:
 //     @{NSForegroundColorAttributeName:[UIColor whiteColor],
 //       NSFontAttributeName: [UIFont systemFontOfSize:16]}];
-//    
+//
 //    [[UIBarButtonItem appearance] setTitleTextAttributes:
 //     @{NSForegroundColorAttributeName:[UIColor whiteColor],
 //       NSFontAttributeName: [UIFont systemFontOfSize:16]}

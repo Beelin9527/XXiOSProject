@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2B2957D984A1A5358330F657 /* libPods-XXiOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */; };
+		8E25BB631FB09B7400851A68 /* XXZhaoSiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25BB621FB09B7400851A68 /* XXZhaoSiViewController.m */; };
+		8E33A23F1F88F147009696D3 /* XXRuMoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E33A23E1F88F147009696D3 /* XXRuMoController.m */; };
+		8E33A2421F88F346009696D3 /* XXRACController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E33A2411F88F346009696D3 /* XXRACController.m */; };
+		8E830E2F1F62FCF200505DA3 /* 123.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E830E2E1F62FCF200505DA3 /* 123.json */; };
 		8E95DC151EF10B8E00248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC141EF10B8E00248A32 /* .gitkeep */; };
 		8E95DC291EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC201EF10C7100248A32 /* .gitkeep */; };
 		8E95DC2B1EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC241EF10C7100248A32 /* .gitkeep */; };
@@ -15,9 +19,7 @@
 		8E95DC3B1EF10F8200248A32 /* XXNavigationControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC381EF10F8200248A32 /* XXNavigationControllerManager.m */; };
 		8E95DC3C1EF10F8200248A32 /* XXTabBarControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC3A1EF10F8200248A32 /* XXTabBarControllerManager.m */; };
 		8E95DC3F1EF10FC900248A32 /* AppDelegate+XXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC3E1EF10FC900248A32 /* AppDelegate+XXHelper.m */; };
-		8E95DC421EF1127D00248A32 /* XXResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC411EF1127D00248A32 /* XXResource.m */; };
 		8E95DC451EF113CF00248A32 /* XXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC441EF113CF00248A32 /* XXConst.m */; };
-		8E9806F61F4D1F6D0000850D /* XXLucasMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9806F51F4D1F6D0000850D /* XXLucasMainController.xib */; };
 		8E9806F91F4D236C0000850D /* XXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9806F81F4D236C0000850D /* XXTestViewController.m */; };
 		8EA01F8A1EFCBBE400353789 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA01F891EFCBBE400353789 /* UIImage+Color.m */; };
 		8EEEBA941F558188000F6ED3 /* XXBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEEBA931F558188000F6ED3 /* XXBannerView.m */; };
@@ -28,8 +30,6 @@
 		8EF0E7941EEA822D00A04F82 /* XXiOSProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E7931EEA822D00A04F82 /* XXiOSProjectTests.m */; };
 		8EF0E79F1EEA822E00A04F82 /* XXiOSProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E79E1EEA822E00A04F82 /* XXiOSProjectUITests.m */; };
 		8EF0E7C51EEA9CB700A04F82 /* XXBeelinMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E7C41EEA9CB700A04F82 /* XXBeelinMainController.m */; };
-		8EF0E7C81EEA9CCB00A04F82 /* XXHanlMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E7C71EEA9CCB00A04F82 /* XXHanlMainController.m */; };
-		8EF0E7CB1EEA9CDA00A04F82 /* XXLucasMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E7CA1EEA9CDA00A04F82 /* XXLucasMainController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +52,13 @@
 /* Begin PBXFileReference section */
 		13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XXiOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B1A296F7304A9BAE15F716 /* Pods-XXiOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXiOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject.release.xcconfig"; sourceTree = "<group>"; };
+		8E25BB611FB09B7400851A68 /* XXZhaoSiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXZhaoSiViewController.h; sourceTree = "<group>"; };
+		8E25BB621FB09B7400851A68 /* XXZhaoSiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXZhaoSiViewController.m; sourceTree = "<group>"; };
+		8E33A23D1F88F147009696D3 /* XXRuMoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXRuMoController.h; sourceTree = "<group>"; };
+		8E33A23E1F88F147009696D3 /* XXRuMoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXRuMoController.m; sourceTree = "<group>"; };
+		8E33A2401F88F346009696D3 /* XXRACController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXRACController.h; sourceTree = "<group>"; };
+		8E33A2411F88F346009696D3 /* XXRACController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXRACController.m; sourceTree = "<group>"; };
+		8E830E2E1F62FCF200505DA3 /* 123.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 123.json; sourceTree = "<group>"; };
 		8E95DC141EF10B8E00248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC201EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC241EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -63,13 +70,10 @@
 		8E95DC3A1EF10F8200248A32 /* XXTabBarControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTabBarControllerManager.m; sourceTree = "<group>"; };
 		8E95DC3D1EF10FC900248A32 /* AppDelegate+XXHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+XXHelper.h"; sourceTree = "<group>"; };
 		8E95DC3E1EF10FC900248A32 /* AppDelegate+XXHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+XXHelper.m"; sourceTree = "<group>"; };
-		8E95DC401EF1127D00248A32 /* XXResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXResource.h; sourceTree = "<group>"; };
-		8E95DC411EF1127D00248A32 /* XXResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXResource.m; sourceTree = "<group>"; };
 		8E95DC431EF113CF00248A32 /* XXConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXConst.h; sourceTree = "<group>"; };
 		8E95DC441EF113CF00248A32 /* XXConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXConst.m; sourceTree = "<group>"; };
 		8E95DC461EF113F300248A32 /* XXMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXMacros.h; sourceTree = "<group>"; };
 		8E95DC471EF1143100248A32 /* SwizzlingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
-		8E9806F51F4D1F6D0000850D /* XXLucasMainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XXLucasMainController.xib; sourceTree = "<group>"; };
 		8E9806F71F4D236C0000850D /* XXTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTestViewController.h; sourceTree = "<group>"; };
 		8E9806F81F4D236C0000850D /* XXTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTestViewController.m; sourceTree = "<group>"; };
 		8EA01F881EFCBBE400353789 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
@@ -91,10 +95,6 @@
 		8EF0E7A01EEA822E00A04F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EF0E7C31EEA9CB700A04F82 /* XXBeelinMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBeelinMainController.h; sourceTree = "<group>"; };
 		8EF0E7C41EEA9CB700A04F82 /* XXBeelinMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBeelinMainController.m; sourceTree = "<group>"; };
-		8EF0E7C61EEA9CCB00A04F82 /* XXHanlMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXHanlMainController.h; sourceTree = "<group>"; };
-		8EF0E7C71EEA9CCB00A04F82 /* XXHanlMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXHanlMainController.m; sourceTree = "<group>"; };
-		8EF0E7C91EEA9CDA00A04F82 /* XXLucasMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXLucasMainController.h; sourceTree = "<group>"; };
-		8EF0E7CA1EEA9CDA00A04F82 /* XXLucasMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXLucasMainController.m; sourceTree = "<group>"; };
 		9B9B3A45A6C8C18B55A44821 /* Pods-XXiOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXiOSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +133,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8E25BB601FB09B4300851A68 /* 招式 */ = {
+			isa = PBXGroup;
+			children = (
+				8E25BB611FB09B7400851A68 /* XXZhaoSiViewController.h */,
+				8E25BB621FB09B7400851A68 /* XXZhaoSiViewController.m */,
+			);
+			path = "招式";
+			sourceTree = "<group>";
+		};
+		8E33A23C1F88F106009696D3 /* 入魔 */ = {
+			isa = PBXGroup;
+			children = (
+				8E33A23D1F88F147009696D3 /* XXRuMoController.h */,
+				8E33A23E1F88F147009696D3 /* XXRuMoController.m */,
+				8E33A2401F88F346009696D3 /* XXRACController.h */,
+				8E33A2411F88F346009696D3 /* XXRACController.m */,
+			);
+			path = "入魔";
+			sourceTree = "<group>";
+		};
 		8E95DC0B1EF1095F00248A32 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,9 +183,8 @@
 		8E95DC161EF10BAA00248A32 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				8E830E2E1F62FCF200505DA3 /* 123.json */,
 				8EF0E7851EEA822D00A04F82 /* Assets.xcassets */,
-				8E95DC401EF1127D00248A32 /* XXResource.h */,
-				8E95DC411EF1127D00248A32 /* XXResource.m */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -323,9 +342,9 @@
 		8EF0E7AE1EEA82CF00A04F82 /* Module（模块） */ = {
 			isa = PBXGroup;
 			children = (
+				8E25BB601FB09B4300851A68 /* 招式 */,
+				8E33A23C1F88F106009696D3 /* 入魔 */,
 				8EF0E7C01EEA9C6500A04F82 /* Beelin */,
-				8EF0E7C11EEA9C6500A04F82 /* Hanl */,
-				8EF0E7C21EEA9C6500A04F82 /* Lucas */,
 			);
 			name = "Module（模块）";
 			path = Module;
@@ -340,25 +359,6 @@
 				8E9806F81F4D236C0000850D /* XXTestViewController.m */,
 			);
 			path = Beelin;
-			sourceTree = "<group>";
-		};
-		8EF0E7C11EEA9C6500A04F82 /* Hanl */ = {
-			isa = PBXGroup;
-			children = (
-				8EF0E7C61EEA9CCB00A04F82 /* XXHanlMainController.h */,
-				8EF0E7C71EEA9CCB00A04F82 /* XXHanlMainController.m */,
-			);
-			path = Hanl;
-			sourceTree = "<group>";
-		};
-		8EF0E7C21EEA9C6500A04F82 /* Lucas */ = {
-			isa = PBXGroup;
-			children = (
-				8EF0E7C91EEA9CDA00A04F82 /* XXLucasMainController.h */,
-				8EF0E7CA1EEA9CDA00A04F82 /* XXLucasMainController.m */,
-				8E9806F51F4D1F6D0000850D /* XXLucasMainController.xib */,
-			);
-			path = Lucas;
 			sourceTree = "<group>";
 		};
 		DE93F45DDBDB7CB84DF0FFC0 /* Frameworks */ = {
@@ -481,11 +481,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E830E2F1F62FCF200505DA3 /* 123.json in Resources */,
 				8E95DC151EF10B8E00248A32 /* .gitkeep in Resources */,
 				8EF0E7891EEA822D00A04F82 /* LaunchScreen.storyboard in Resources */,
 				8EF0E7861EEA822D00A04F82 /* Assets.xcassets in Resources */,
 				8E95DC2B1EF10C7100248A32 /* .gitkeep in Resources */,
-				8E9806F61F4D1F6D0000850D /* XXLucasMainController.xib in Resources */,
 				8E95DC291EF10C7100248A32 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,13 +513,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XXiOSProject-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		37564F35282BEEC31E3EBE01 /* [CP] Copy Pods Resources */ = {
@@ -559,17 +562,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF0E7CB1EEA9CDA00A04F82 /* XXLucasMainController.m in Sources */,
 				8E95DC351EF10F6B00248A32 /* XXBaseClass.m in Sources */,
 				8E95DC3F1EF10FC900248A32 /* AppDelegate+XXHelper.m in Sources */,
+				8E33A2421F88F346009696D3 /* XXRACController.m in Sources */,
 				8E95DC3C1EF10F8200248A32 /* XXTabBarControllerManager.m in Sources */,
-				8EF0E7C81EEA9CCB00A04F82 /* XXHanlMainController.m in Sources */,
 				8EF0E7C51EEA9CB700A04F82 /* XXBeelinMainController.m in Sources */,
 				8E95DC451EF113CF00248A32 /* XXConst.m in Sources */,
 				8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */,
 				8EEEBA941F558188000F6ED3 /* XXBannerView.m in Sources */,
 				8E9806F91F4D236C0000850D /* XXTestViewController.m in Sources */,
-				8E95DC421EF1127D00248A32 /* XXResource.m in Sources */,
+				8E25BB631FB09B7400851A68 /* XXZhaoSiViewController.m in Sources */,
+				8E33A23F1F88F147009696D3 /* XXRuMoController.m in Sources */,
 				8EA01F8A1EFCBBE400353789 /* UIImage+Color.m in Sources */,
 				8EF0E77B1EEA822D00A04F82 /* main.m in Sources */,
 				8E95DC3B1EF10F8200248A32 /* XXNavigationControllerManager.m in Sources */,

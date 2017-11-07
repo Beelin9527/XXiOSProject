@@ -8,9 +8,14 @@
 
 #import "XXBeelinMainController.h"
 
+#import "XXTestViewController.h"
+#import <Lottie/Lottie.h>
+
 @interface XXBeelinMainController ()
 @property (nonatomic, strong) UILabel *lab;
 @property (nonatomic, strong) UIView *boxView;
+
+@property (nonatomic, weak) NSString *target;
 @end
 
 @implementation XXBeelinMainController
@@ -18,8 +23,9 @@
 #pragma mark - Life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self initConfig];
+    XXTestViewController *test = [[XXTestViewController alloc] init];
+    [self.navigationController pushViewController:test animated:YES];
+//    [self initConfig];
     //
     //    [self addSubviews];
     //
@@ -28,6 +34,19 @@
     //    [self addObservers];
     //
     //    [self requestXXX];
+    
+//    dispatch_queue_t queue = dispatch_queue_create("parallel", DISPATCH_QUEUE_CONCURRENT);
+//    for (int i = 0; i < 1000000 ; i++) {
+//        dispatch_async(queue, ^{
+//            self.target = [NSString stringWithFormat:@"ksddkjalkjd%d",i];
+//        });
+//    }
+    
+//    LOTAnimationView *animation = [LOTAnimationView animationNamed:@"123"];
+//    [self.view addSubview:animation];
+//    [animation playWithCompletion:^(BOOL animationFinished) {
+//        // Do Something
+//    }];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
