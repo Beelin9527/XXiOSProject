@@ -20,6 +20,7 @@
 		8E549BB21FC81FAB00EAE8E4 /* UIImage+XXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BA61FC81FAA00EAE8E4 /* UIImage+XXColor.m */; };
 		8E549BB31FC81FAB00EAE8E4 /* UIViewController+XXShowCameraSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BA91FC81FAA00EAE8E4 /* UIViewController+XXShowCameraSheet.m */; };
 		8E549BB41FC81FAB00EAE8E4 /* UIViewController+XXTelephone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BAB1FC81FAA00EAE8E4 /* UIViewController+XXTelephone.m */; };
+		8E549BB81FC821ED00EAE8E4 /* NSArray+XXBeyond.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BB71FC821ED00EAE8E4 /* NSArray+XXBeyond.m */; };
 		8E830E2F1F62FCF200505DA3 /* 123.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E830E2E1F62FCF200505DA3 /* 123.json */; };
 		8E95DC151EF10B8E00248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC141EF10B8E00248A32 /* .gitkeep */; };
 		8E95DC291EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC201EF10C7100248A32 /* .gitkeep */; };
@@ -84,6 +85,8 @@
 		8E549BA91FC81FAA00EAE8E4 /* UIViewController+XXShowCameraSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XXShowCameraSheet.m"; sourceTree = "<group>"; };
 		8E549BAA1FC81FAA00EAE8E4 /* UIViewController+XXTelephone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XXTelephone.h"; sourceTree = "<group>"; };
 		8E549BAB1FC81FAA00EAE8E4 /* UIViewController+XXTelephone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XXTelephone.m"; sourceTree = "<group>"; };
+		8E549BB61FC821ED00EAE8E4 /* NSArray+XXBeyond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+XXBeyond.h"; sourceTree = "<group>"; };
+		8E549BB71FC821ED00EAE8E4 /* NSArray+XXBeyond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XXBeyond.m"; sourceTree = "<group>"; };
 		8E830E2E1F62FCF200505DA3 /* 123.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 123.json; sourceTree = "<group>"; };
 		8E95DC141EF10B8E00248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC201EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -244,6 +247,15 @@
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
+		8E549BB51FC821CE00EAE8E4 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				8E549BB61FC821ED00EAE8E4 /* NSArray+XXBeyond.h */,
+				8E549BB71FC821ED00EAE8E4 /* NSArray+XXBeyond.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
 		8E95DC0B1EF1095F00248A32 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +317,7 @@
 		8E95DC1B1EF10C7100248A32 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				8E549BB51FC821CE00EAE8E4 /* NSArray */,
 				8E549B9F1FC81FAA00EAE8E4 /* NSString */,
 				8E549B991FC81FAA00EAE8E4 /* NSUserDefaults */,
 				8E549B9C1FC81FAA00EAE8E4 /* UIButton */,
@@ -654,6 +667,7 @@
 				8E549BAF1FC81FAB00EAE8E4 /* UIButton+XXSwapPlace.m in Sources */,
 				8E95DC351EF10F6B00248A32 /* XXBaseClass.m in Sources */,
 				8E95DC3F1EF10FC900248A32 /* AppDelegate+XXHelper.m in Sources */,
+				8E549BB81FC821ED00EAE8E4 /* NSArray+XXBeyond.m in Sources */,
 				8E33A2421F88F346009696D3 /* XXRACController.m in Sources */,
 				8E95DC3C1EF10F8200248A32 /* XXTabBarControllerManager.m in Sources */,
 				8EF0E7C51EEA9CB700A04F82 /* XXBeelinMainController.m in Sources */,
