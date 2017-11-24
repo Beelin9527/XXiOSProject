@@ -11,6 +11,15 @@
 		8E25BB631FB09B7400851A68 /* XXZhaoSiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25BB621FB09B7400851A68 /* XXZhaoSiViewController.m */; };
 		8E33A23F1F88F147009696D3 /* XXRuMoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E33A23E1F88F147009696D3 /* XXRuMoController.m */; };
 		8E33A2421F88F346009696D3 /* XXRACController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E33A2411F88F346009696D3 /* XXRACController.m */; };
+		8E549BAC1FC81FAB00EAE8E4 /* UINavigationController+XXBackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549B951FC81FAA00EAE8E4 /* UINavigationController+XXBackItem.m */; };
+		8E549BAD1FC81FAB00EAE8E4 /* UIView+XXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549B981FC81FAA00EAE8E4 /* UIView+XXFrame.m */; };
+		8E549BAE1FC81FAB00EAE8E4 /* NSUserDefaults+XXHepler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549B9B1FC81FAA00EAE8E4 /* NSUserDefaults+XXHepler.m */; };
+		8E549BAF1FC81FAB00EAE8E4 /* UIButton+XXSwapPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549B9E1FC81FAA00EAE8E4 /* UIButton+XXSwapPlace.m */; };
+		8E549BB01FC81FAB00EAE8E4 /* NSMutableAttributedString+XXAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BA11FC81FAA00EAE8E4 /* NSMutableAttributedString+XXAttributed.m */; };
+		8E549BB11FC81FAB00EAE8E4 /* NSString+XXJudeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BA31FC81FAA00EAE8E4 /* NSString+XXJudeg.m */; };
+		8E549BB21FC81FAB00EAE8E4 /* UIImage+XXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BA61FC81FAA00EAE8E4 /* UIImage+XXColor.m */; };
+		8E549BB31FC81FAB00EAE8E4 /* UIViewController+XXShowCameraSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BA91FC81FAA00EAE8E4 /* UIViewController+XXShowCameraSheet.m */; };
+		8E549BB41FC81FAB00EAE8E4 /* UIViewController+XXTelephone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BAB1FC81FAA00EAE8E4 /* UIViewController+XXTelephone.m */; };
 		8E830E2F1F62FCF200505DA3 /* 123.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E830E2E1F62FCF200505DA3 /* 123.json */; };
 		8E95DC151EF10B8E00248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC141EF10B8E00248A32 /* .gitkeep */; };
 		8E95DC291EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC201EF10C7100248A32 /* .gitkeep */; };
@@ -21,7 +30,6 @@
 		8E95DC3F1EF10FC900248A32 /* AppDelegate+XXHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC3E1EF10FC900248A32 /* AppDelegate+XXHelper.m */; };
 		8E95DC451EF113CF00248A32 /* XXConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E95DC441EF113CF00248A32 /* XXConst.m */; };
 		8E9806F91F4D236C0000850D /* XXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9806F81F4D236C0000850D /* XXTestViewController.m */; };
-		8EA01F8A1EFCBBE400353789 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA01F891EFCBBE400353789 /* UIImage+Color.m */; };
 		8EEEBA941F558188000F6ED3 /* XXBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEEBA931F558188000F6ED3 /* XXBannerView.m */; };
 		8EF0E77B1EEA822D00A04F82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77A1EEA822D00A04F82 /* main.m */; };
 		8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77D1EEA822D00A04F82 /* AppDelegate.m */; };
@@ -58,6 +66,24 @@
 		8E33A23E1F88F147009696D3 /* XXRuMoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXRuMoController.m; sourceTree = "<group>"; };
 		8E33A2401F88F346009696D3 /* XXRACController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXRACController.h; sourceTree = "<group>"; };
 		8E33A2411F88F346009696D3 /* XXRACController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXRACController.m; sourceTree = "<group>"; };
+		8E549B941FC81FAA00EAE8E4 /* UINavigationController+XXBackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+XXBackItem.h"; sourceTree = "<group>"; };
+		8E549B951FC81FAA00EAE8E4 /* UINavigationController+XXBackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+XXBackItem.m"; sourceTree = "<group>"; };
+		8E549B971FC81FAA00EAE8E4 /* UIView+XXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XXFrame.h"; sourceTree = "<group>"; };
+		8E549B981FC81FAA00EAE8E4 /* UIView+XXFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XXFrame.m"; sourceTree = "<group>"; };
+		8E549B9A1FC81FAA00EAE8E4 /* NSUserDefaults+XXHepler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+XXHepler.h"; sourceTree = "<group>"; };
+		8E549B9B1FC81FAA00EAE8E4 /* NSUserDefaults+XXHepler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+XXHepler.m"; sourceTree = "<group>"; };
+		8E549B9D1FC81FAA00EAE8E4 /* UIButton+XXSwapPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XXSwapPlace.h"; sourceTree = "<group>"; };
+		8E549B9E1FC81FAA00EAE8E4 /* UIButton+XXSwapPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XXSwapPlace.m"; sourceTree = "<group>"; };
+		8E549BA01FC81FAA00EAE8E4 /* NSMutableAttributedString+XXAttributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+XXAttributed.h"; sourceTree = "<group>"; };
+		8E549BA11FC81FAA00EAE8E4 /* NSMutableAttributedString+XXAttributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+XXAttributed.m"; sourceTree = "<group>"; };
+		8E549BA21FC81FAA00EAE8E4 /* NSString+XXJudeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XXJudeg.h"; sourceTree = "<group>"; };
+		8E549BA31FC81FAA00EAE8E4 /* NSString+XXJudeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XXJudeg.m"; sourceTree = "<group>"; };
+		8E549BA51FC81FAA00EAE8E4 /* UIImage+XXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XXColor.h"; sourceTree = "<group>"; };
+		8E549BA61FC81FAA00EAE8E4 /* UIImage+XXColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XXColor.m"; sourceTree = "<group>"; };
+		8E549BA81FC81FAA00EAE8E4 /* UIViewController+XXShowCameraSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XXShowCameraSheet.h"; sourceTree = "<group>"; };
+		8E549BA91FC81FAA00EAE8E4 /* UIViewController+XXShowCameraSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XXShowCameraSheet.m"; sourceTree = "<group>"; };
+		8E549BAA1FC81FAA00EAE8E4 /* UIViewController+XXTelephone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XXTelephone.h"; sourceTree = "<group>"; };
+		8E549BAB1FC81FAA00EAE8E4 /* UIViewController+XXTelephone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XXTelephone.m"; sourceTree = "<group>"; };
 		8E830E2E1F62FCF200505DA3 /* 123.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 123.json; sourceTree = "<group>"; };
 		8E95DC141EF10B8E00248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC201EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -76,8 +102,6 @@
 		8E95DC471EF1143100248A32 /* SwizzlingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
 		8E9806F71F4D236C0000850D /* XXTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTestViewController.h; sourceTree = "<group>"; };
 		8E9806F81F4D236C0000850D /* XXTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTestViewController.m; sourceTree = "<group>"; };
-		8EA01F881EFCBBE400353789 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
-		8EA01F891EFCBBE400353789 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		8EEEBA921F558188000F6ED3 /* XXBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBannerView.h; sourceTree = "<group>"; };
 		8EEEBA931F558188000F6ED3 /* XXBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBannerView.m; sourceTree = "<group>"; };
 		8EF0E7761EEA822D00A04F82 /* XXiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +177,73 @@
 			path = "入魔";
 			sourceTree = "<group>";
 		};
+		8E549B931FC81FAA00EAE8E4 /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				8E549B941FC81FAA00EAE8E4 /* UINavigationController+XXBackItem.h */,
+				8E549B951FC81FAA00EAE8E4 /* UINavigationController+XXBackItem.m */,
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		8E549B961FC81FAA00EAE8E4 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				8E549B971FC81FAA00EAE8E4 /* UIView+XXFrame.h */,
+				8E549B981FC81FAA00EAE8E4 /* UIView+XXFrame.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		8E549B991FC81FAA00EAE8E4 /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				8E549B9A1FC81FAA00EAE8E4 /* NSUserDefaults+XXHepler.h */,
+				8E549B9B1FC81FAA00EAE8E4 /* NSUserDefaults+XXHepler.m */,
+			);
+			path = NSUserDefaults;
+			sourceTree = "<group>";
+		};
+		8E549B9C1FC81FAA00EAE8E4 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				8E549B9D1FC81FAA00EAE8E4 /* UIButton+XXSwapPlace.h */,
+				8E549B9E1FC81FAA00EAE8E4 /* UIButton+XXSwapPlace.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		8E549B9F1FC81FAA00EAE8E4 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				8E549BA01FC81FAA00EAE8E4 /* NSMutableAttributedString+XXAttributed.h */,
+				8E549BA11FC81FAA00EAE8E4 /* NSMutableAttributedString+XXAttributed.m */,
+				8E549BA21FC81FAA00EAE8E4 /* NSString+XXJudeg.h */,
+				8E549BA31FC81FAA00EAE8E4 /* NSString+XXJudeg.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		8E549BA41FC81FAA00EAE8E4 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				8E549BA51FC81FAA00EAE8E4 /* UIImage+XXColor.h */,
+				8E549BA61FC81FAA00EAE8E4 /* UIImage+XXColor.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		8E549BA71FC81FAA00EAE8E4 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E549BA81FC81FAA00EAE8E4 /* UIViewController+XXShowCameraSheet.h */,
+				8E549BA91FC81FAA00EAE8E4 /* UIViewController+XXShowCameraSheet.m */,
+				8E549BAA1FC81FAA00EAE8E4 /* UIViewController+XXTelephone.h */,
+				8E549BAB1FC81FAA00EAE8E4 /* UIViewController+XXTelephone.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 		8E95DC0B1EF1095F00248A32 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,7 +305,13 @@
 		8E95DC1B1EF10C7100248A32 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				8EA01F871EFCBB2E00353789 /* UIImage */,
+				8E549B9F1FC81FAA00EAE8E4 /* NSString */,
+				8E549B991FC81FAA00EAE8E4 /* NSUserDefaults */,
+				8E549B9C1FC81FAA00EAE8E4 /* UIButton */,
+				8E549BA41FC81FAA00EAE8E4 /* UIImage */,
+				8E549B931FC81FAA00EAE8E4 /* UINavigationController */,
+				8E549B961FC81FAA00EAE8E4 /* UIView */,
+				8E549BA71FC81FAA00EAE8E4 /* UIViewController */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -264,15 +361,6 @@
 				8E95DC3A1EF10F8200248A32 /* XXTabBarControllerManager.m */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		8EA01F871EFCBB2E00353789 /* UIImage */ = {
-			isa = PBXGroup;
-			children = (
-				8EA01F881EFCBBE400353789 /* UIImage+Color.h */,
-				8EA01F891EFCBBE400353789 /* UIImage+Color.m */,
-			);
-			path = UIImage;
 			sourceTree = "<group>";
 		};
 		8EF0E76D1EEA822D00A04F82 = {
@@ -562,20 +650,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E549BB01FC81FAB00EAE8E4 /* NSMutableAttributedString+XXAttributed.m in Sources */,
+				8E549BAF1FC81FAB00EAE8E4 /* UIButton+XXSwapPlace.m in Sources */,
 				8E95DC351EF10F6B00248A32 /* XXBaseClass.m in Sources */,
 				8E95DC3F1EF10FC900248A32 /* AppDelegate+XXHelper.m in Sources */,
 				8E33A2421F88F346009696D3 /* XXRACController.m in Sources */,
 				8E95DC3C1EF10F8200248A32 /* XXTabBarControllerManager.m in Sources */,
 				8EF0E7C51EEA9CB700A04F82 /* XXBeelinMainController.m in Sources */,
 				8E95DC451EF113CF00248A32 /* XXConst.m in Sources */,
+				8E549BB11FC81FAB00EAE8E4 /* NSString+XXJudeg.m in Sources */,
 				8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */,
+				8E549BAE1FC81FAB00EAE8E4 /* NSUserDefaults+XXHepler.m in Sources */,
 				8EEEBA941F558188000F6ED3 /* XXBannerView.m in Sources */,
 				8E9806F91F4D236C0000850D /* XXTestViewController.m in Sources */,
+				8E549BB41FC81FAB00EAE8E4 /* UIViewController+XXTelephone.m in Sources */,
 				8E25BB631FB09B7400851A68 /* XXZhaoSiViewController.m in Sources */,
 				8E33A23F1F88F147009696D3 /* XXRuMoController.m in Sources */,
-				8EA01F8A1EFCBBE400353789 /* UIImage+Color.m in Sources */,
+				8E549BAD1FC81FAB00EAE8E4 /* UIView+XXFrame.m in Sources */,
+				8E549BAC1FC81FAB00EAE8E4 /* UINavigationController+XXBackItem.m in Sources */,
 				8EF0E77B1EEA822D00A04F82 /* main.m in Sources */,
+				8E549BB31FC81FAB00EAE8E4 /* UIViewController+XXShowCameraSheet.m in Sources */,
 				8E95DC3B1EF10F8200248A32 /* XXNavigationControllerManager.m in Sources */,
+				8E549BB21FC81FAB00EAE8E4 /* UIImage+XXColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
