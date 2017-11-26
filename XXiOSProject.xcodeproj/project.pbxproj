@@ -21,6 +21,7 @@
 		8E549BB31FC81FAB00EAE8E4 /* UIViewController+XXShowCameraSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BA91FC81FAA00EAE8E4 /* UIViewController+XXShowCameraSheet.m */; };
 		8E549BB41FC81FAB00EAE8E4 /* UIViewController+XXTelephone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BAB1FC81FAA00EAE8E4 /* UIViewController+XXTelephone.m */; };
 		8E549BB81FC821ED00EAE8E4 /* NSArray+XXBeyond.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BB71FC821ED00EAE8E4 /* NSArray+XXBeyond.m */; };
+		8E549BBC1FCB113C00EAE8E4 /* SVProgressHUD+XXExpand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E549BBB1FCB113C00EAE8E4 /* SVProgressHUD+XXExpand.m */; };
 		8E830E2F1F62FCF200505DA3 /* 123.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E830E2E1F62FCF200505DA3 /* 123.json */; };
 		8E95DC151EF10B8E00248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC141EF10B8E00248A32 /* .gitkeep */; };
 		8E95DC291EF10C7100248A32 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 8E95DC201EF10C7100248A32 /* .gitkeep */; };
@@ -87,6 +88,8 @@
 		8E549BAB1FC81FAA00EAE8E4 /* UIViewController+XXTelephone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XXTelephone.m"; sourceTree = "<group>"; };
 		8E549BB61FC821ED00EAE8E4 /* NSArray+XXBeyond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+XXBeyond.h"; sourceTree = "<group>"; };
 		8E549BB71FC821ED00EAE8E4 /* NSArray+XXBeyond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XXBeyond.m"; sourceTree = "<group>"; };
+		8E549BBA1FCB113C00EAE8E4 /* SVProgressHUD+XXExpand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+XXExpand.h"; sourceTree = "<group>"; };
+		8E549BBB1FCB113C00EAE8E4 /* SVProgressHUD+XXExpand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+XXExpand.m"; sourceTree = "<group>"; };
 		8E830E2E1F62FCF200505DA3 /* 123.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 123.json; sourceTree = "<group>"; };
 		8E95DC141EF10B8E00248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		8E95DC201EF10C7100248A32 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
@@ -256,6 +259,15 @@
 			path = NSArray;
 			sourceTree = "<group>";
 		};
+		8E549BB91FCB10DD00EAE8E4 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8E549BBA1FCB113C00EAE8E4 /* SVProgressHUD+XXExpand.h */,
+				8E549BBB1FCB113C00EAE8E4 /* SVProgressHUD+XXExpand.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		8E95DC0B1EF1095F00248A32 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +329,7 @@
 		8E95DC1B1EF10C7100248A32 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				8E549BB91FCB10DD00EAE8E4 /* SVProgressHUD */,
 				8E549BB51FC821CE00EAE8E4 /* NSArray */,
 				8E549B9F1FC81FAA00EAE8E4 /* NSString */,
 				8E549B991FC81FAA00EAE8E4 /* NSUserDefaults */,
@@ -632,9 +645,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -676,6 +692,7 @@
 				8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */,
 				8E549BAE1FC81FAB00EAE8E4 /* NSUserDefaults+XXHepler.m in Sources */,
 				8EEEBA941F558188000F6ED3 /* XXBannerView.m in Sources */,
+				8E549BBC1FCB113C00EAE8E4 /* SVProgressHUD+XXExpand.m in Sources */,
 				8E9806F91F4D236C0000850D /* XXTestViewController.m in Sources */,
 				8E549BB41FC81FAB00EAE8E4 /* UIViewController+XXTelephone.m in Sources */,
 				8E25BB631FB09B7400851A68 /* XXZhaoSiViewController.m in Sources */,

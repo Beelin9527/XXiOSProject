@@ -6,4 +6,5 @@ pod 'YYKit', '~> 1.0.9'
 pod 'lottie-ios'
 pod 'ReactiveObjC', '~> 3.0.0'
 pod 'MLeaksFinder', '~> 1.0.0'
+pod 'SVProgressHUD', '~> 2.2.2'
 end
