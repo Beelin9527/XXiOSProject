@@ -105,7 +105,6 @@
 		8E95DC431EF113CF00248A32 /* XXConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXConst.h; sourceTree = "<group>"; };
 		8E95DC441EF113CF00248A32 /* XXConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXConst.m; sourceTree = "<group>"; };
 		8E95DC461EF113F300248A32 /* XXMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXMacros.h; sourceTree = "<group>"; };
-		8E95DC471EF1143100248A32 /* SwizzlingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwizzlingDefine.h; sourceTree = "<group>"; };
 		8E9806F71F4D236C0000850D /* XXTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXTestViewController.h; sourceTree = "<group>"; };
 		8E9806F81F4D236C0000850D /* XXTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTestViewController.m; sourceTree = "<group>"; };
 		8EEEBA921F558188000F6ED3 /* XXBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBannerView.h; sourceTree = "<group>"; };
@@ -126,6 +125,7 @@
 		8EF0E7C31EEA9CB700A04F82 /* XXBeelinMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBeelinMainController.h; sourceTree = "<group>"; };
 		8EF0E7C41EEA9CB700A04F82 /* XXBeelinMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBeelinMainController.m; sourceTree = "<group>"; };
 		9B9B3A45A6C8C18B55A44821 /* Pods-XXiOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXiOSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C4599F561FCBA25F00980A8C /* XXSwizzlingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXSwizzlingDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,7 +365,7 @@
 				8E95DC461EF113F300248A32 /* XXMacros.h */,
 				8E95DC431EF113CF00248A32 /* XXConst.h */,
 				8E95DC441EF113CF00248A32 /* XXConst.m */,
-				8E95DC471EF1143100248A32 /* SwizzlingDefine.h */,
+				C4599F561FCBA25F00980A8C /* XXSwizzlingDefine.h */,
 			);
 			path = Global;
 			sourceTree = "<group>";

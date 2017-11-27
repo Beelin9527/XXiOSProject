@@ -1,13 +1,14 @@
 //
-//  SwizzlingDefine.h
-//  NIM
+//  XXSwizzlingDefine.h
+//  XXiOSProject
 //
-//  Created by chris on 15/6/23.
-//  Copyright (c) 2015年 Netease. All rights reserved.
+//  Created by Beelin on 2017/11/27.
+//  Copyright © 2017年 xx. All rights reserved.
 //
 
-#ifndef SwizzlingDefine_h
-#define SwizzlingDefine_h
+#ifndef XXSwizzlingDefine_h
+#define XXSwizzlingDefine_h
+
 #import <objc/runtime.h>
 static inline void swizzling_exchangeMethod(Class clazz ,SEL originalSelector, SEL swizzledSelector){
     Method originalMethod = class_getInstanceMethod(clazz, originalSelector);
@@ -20,5 +21,4 @@ static inline void swizzling_exchangeMethod(Class clazz ,SEL originalSelector, S
         method_exchangeImplementations(originalMethod, swizzledMethod);
     }
 }
-
-#endif
+#endif /* XXSwizzlingDefine_h */
