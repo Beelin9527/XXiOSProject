@@ -8,9 +8,9 @@
 
 #import "AppDelegate.h"
 
-#import "XXTabBarControllerManager.h"
+#import "XXTabBarController.h"
 
-#import "AppDelegate+XXHelper.h"
+#import "AppDelegate+XXExtension.h"
 @interface AppDelegate ()
 
 @end
@@ -21,13 +21,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    XXTabBarControllerManager *tabBarController = [[XXTabBarControllerManager alloc] init];
+    XXTabBarController *tabBarController = [[XXTabBarController alloc] init];
     window.rootViewController = tabBarController;
     window.backgroundColor = [UIColor whiteColor];
     [window makeKeyAndVisible];
     self.window = window;
     
-    [self xx_registerAPNs];
+    [self xx_navigationGlobalConfig];
     
     return YES;
 }
