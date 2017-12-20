@@ -7,4 +7,6 @@ pod 'lottie-ios'
 pod 'ReactiveObjC', '~> 3.0.0'
 pod 'MLeaksFinder', '~> 1.0.0'
 pod 'SVProgressHUD', '~> 2.2.2'
+pod 'UICKeyChainStore', '~> 2.1.1'
+pod 'Realm', '~> 3.0.2'
 end

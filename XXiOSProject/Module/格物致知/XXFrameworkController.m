@@ -9,6 +9,7 @@
 #import "XXFrameworkController.h"
 
 #import "XXRACController.h"
+#import "XXRealmController.h"
 @interface XXFrameworkController ()<UITableViewDelegate, UITableViewDataSource>
 @property (strong, nonatomic) UITableView *tableView;
 
@@ -59,7 +60,9 @@
 - (NSDictionary *)dict {
     if (!_dict) {
         _dict = @{
-                  NSStringFromClass([XXRACController class]) : @"RAC"
+                  NSStringFromClass([XXRACController class]) : @"RAC",
+                  NSStringFromClass([XXRealmController class]) : @"Realm",
+                  
                   };
     }
     return _dict;

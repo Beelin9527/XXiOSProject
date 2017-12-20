@@ -93,6 +93,8 @@
 		C4689B701FE0D69F00CEE258 /* OOAliyunManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4689B6B1FE0D69F00CEE258 /* OOAliyunManager.m */; };
 		C4689B711FE0D69F00CEE258 /* XXFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4689B6D1FE0D69F00CEE258 /* XXFileManager.m */; };
 		C4689B721FE0D69F00CEE258 /* XXLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4689B6F1FE0D69F00CEE258 /* XXLocationManager.m */; };
+		C4FC01711FE9F433002CE9A9 /* XXRealmController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FC01701FE9F433002CE9A9 /* XXRealmController.m */; };
+		C4FC01741FE9FA95002CE9A9 /* XXRealmPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FC01731FE9FA95002CE9A9 /* XXRealmPersonModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -284,6 +286,11 @@
 		C4689B6D1FE0D69F00CEE258 /* XXFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXFileManager.m; sourceTree = "<group>"; };
 		C4689B6E1FE0D69F00CEE258 /* XXLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXLocationManager.h; sourceTree = "<group>"; };
 		C4689B6F1FE0D69F00CEE258 /* XXLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXLocationManager.m; sourceTree = "<group>"; };
+		C4FC016F1FE9F433002CE9A9 /* XXRealmController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXRealmController.h; sourceTree = "<group>"; };
+		C4FC01701FE9F433002CE9A9 /* XXRealmController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXRealmController.m; sourceTree = "<group>"; };
+		C4FC01721FE9FA95002CE9A9 /* XXRealmPersonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXRealmPersonModel.h; sourceTree = "<group>"; };
+		C4FC01731FE9FA95002CE9A9 /* XXRealmPersonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXRealmPersonModel.m; sourceTree = "<group>"; };
+		C4FC01751FEA4C91002CE9A9 /* XXLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXLog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -485,6 +492,7 @@
 		C42783961FE0C0AA0027300B /* 格物致知 */ = {
 			isa = PBXGroup;
 			children = (
+				C4FC016E1FE9F408002CE9A9 /* realm */,
 				C42783971FE0C0FA0027300B /* XXFrameworkController.h */,
 				C42783981FE0C0FA0027300B /* XXFrameworkController.m */,
 				C427839A1FE0C11D0027300B /* XXRACController.h */,
@@ -655,6 +663,7 @@
 				C4689A861FE0C63400CEE258 /* XXConst.h */,
 				C4689A871FE0C63400CEE258 /* XXConst.m */,
 				C4689A881FE0C63400CEE258 /* XXMacros.h */,
+				C4FC01751FEA4C91002CE9A9 /* XXLog.h */,
 				C4689A891FE0C63400CEE258 /* XXSwizzlingDefine.h */,
 			);
 			path = Global;
@@ -922,6 +931,17 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		C4FC016E1FE9F408002CE9A9 /* realm */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC016F1FE9F433002CE9A9 /* XXRealmController.h */,
+				C4FC01701FE9F433002CE9A9 /* XXRealmController.m */,
+				C4FC01721FE9FA95002CE9A9 /* XXRealmPersonModel.h */,
+				C4FC01731FE9FA95002CE9A9 /* XXRealmPersonModel.m */,
+			);
+			path = realm;
+			sourceTree = "<group>";
+		};
 		DE93F45DDBDB7CB84DF0FFC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1141,6 +1161,7 @@
 				C4689B661FE0D11400CEE258 /* OOPopOneViewController.m in Sources */,
 				C42783991FE0C0FA0027300B /* XXFrameworkController.m in Sources */,
 				C4689B4E1FE0D10700CEE258 /* Chicken.m in Sources */,
+				C4FC01711FE9F433002CE9A9 /* XXRealmController.m in Sources */,
 				C4689AB71FE0CB4A00CEE258 /* XXSegmentedView.m in Sources */,
 				C4689A971FE0C63400CEE258 /* UIViewController+XXTelephone.m in Sources */,
 				C4689B4A1FE0D10700CEE258 /* OOGraphicsImage.m in Sources */,
@@ -1152,6 +1173,7 @@
 				C4689B391FE0D10700CEE258 /* OOShakeController.m in Sources */,
 				C4689B681FE0D11400CEE258 /* OOPopTwoViewController.m in Sources */,
 				C4689AC11FE0CE5D00CEE258 /* XXQRImageView.m in Sources */,
+				C4FC01741FE9FA95002CE9A9 /* XXRealmPersonModel.m in Sources */,
 				C427838D1FE0BB280027300B /* XXTabBarController.m in Sources */,
 				C4689B411FE0D10700CEE258 /* ScrollMianViewController.m in Sources */,
 				C4689B701FE0D69F00CEE258 /* OOAliyunManager.m in Sources */,
