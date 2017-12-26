@@ -8,7 +8,12 @@
 
 #import "XXStudyController.h"
 
-@interface XXStudyController ()
+#import "XXCollectionViewController.h"
+
+@interface XXStudyController ()<UITableViewDelegate, UITableViewDataSource>
+@property (strong, nonatomic) UITableView *tableView;
+
+@property (strong, nonatomic) NSDictionary *dict;
 
 @end
 
@@ -16,22 +21,51 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view = self.tableView;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - DataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.dict.allKeys.count;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellId"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cellId"];
+    }
+    cell.textLabel.text = self.dict.allValues[indexPath.row];
+    return cell;
 }
-*/
+
+#pragma mark - Delegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSString *clsName = self.dict.allKeys[indexPath.row];
+    Class cls = NSClassFromString(clsName);
+    UIViewController *vc = [[cls alloc] init];
+    vc.title = self.dict.allValues[indexPath.row];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+#pragma mark - Getter
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+    }
+    return _tableView;
+}
+
+- (NSDictionary *)dict {
+    if (!_dict) {
+        _dict = @{
+                  NSStringFromClass([XXCollectionViewController class]) : @"CollectionView",
+                  
+                  };
+    }
+    return _dict;
+}
 
 @end
+

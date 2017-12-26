@@ -10,4 +10,7 @@
 
 @implementation XXConst
 NSString *const xx = @"xx";
+- (void)a {
+    
+}
 @end

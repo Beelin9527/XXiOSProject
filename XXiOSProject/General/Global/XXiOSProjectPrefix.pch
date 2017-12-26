@@ -1,0 +1,24 @@
+//
+//  XXiOSProjectPrefix.pch
+//  XXiOSProject
+//
+//  Created by Beelin on 2017/12/21.
+//  Copyright © 2017年 xx. All rights reserved.
+//
+
+#ifndef XXiOSProjectPrefix_pch
+#define XXiOSProjectPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+//#import <UIKit/UIKit.h>
+//#import <Foundation/Foundation.h>
+
+#import "AAGlobalMacro.h"
+#import "GGGraphics.h"
+#endif
+
+
+#endif /* XXiOSProjectPrefix_pch */

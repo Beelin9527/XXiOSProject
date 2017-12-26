@@ -11,6 +11,7 @@
 #import "XXRealmPersonModel.h"
 
 #import <Realm.h>
+
 @interface XXRealmController ()
 @property (strong, nonatomic) UIButton *insertBtn;
 
@@ -54,6 +55,7 @@
             [realm addObject:p];
         }];
     });
+    
 }
 
 /* 删 */

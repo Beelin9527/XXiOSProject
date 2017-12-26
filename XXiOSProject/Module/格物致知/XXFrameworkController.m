@@ -10,6 +10,9 @@
 
 #import "XXRACController.h"
 #import "XXRealmController.h"
+#import "XXAAChartKitController.h"
+#import "XXGGChartController.h"
+#import "XXLKDBController.h"
 @interface XXFrameworkController ()<UITableViewDelegate, UITableViewDataSource>
 @property (strong, nonatomic) UITableView *tableView;
 
@@ -62,6 +65,9 @@
         _dict = @{
                   NSStringFromClass([XXRACController class]) : @"RAC",
                   NSStringFromClass([XXRealmController class]) : @"Realm",
+                    NSStringFromClass([XXAAChartKitController class]) : @"AAChartKit",
+                   NSStringFromClass([XXGGChartController class]) : @"GGChart",
+                  NSStringFromClass([XXLKDBController class]) : @"LKDB",
                   
                   };
     }
