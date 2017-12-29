@@ -24,6 +24,8 @@ static NSString *cellId = @"cellId";
     self.view.backgroundColor= [UIColor whiteColor];
 //    _heightArray = @[@100.0f, @150.0f, @200.0f, @130.0f, @120.0f, @150.0f, @200.0f, @130.0f, @120.0f,@180.0f];
     [self.view addSubview: self.collectionView];
+    
+   
 }
 
 #pragma - mark UICollectionViewDataSource

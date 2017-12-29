@@ -205,6 +205,8 @@
 		C430D6401FEB998F002783B2 /* AAXAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = C430D61A1FEB998F002783B2 /* AAXAxis.m */; };
 		C430D6411FEB998F002783B2 /* AAYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = C430D61C1FEB998F002783B2 /* AAYAxis.m */; };
 		C451066A1FE0C40100B97DA5 /* XXStudyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45106691FE0C40100B97DA5 /* XXStudyController.m */; };
+		C4667C3C1FF5E245005B7F50 /* XXNetworking+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4667C3B1FF5E245005B7F50 /* XXNetworking+RAC.m */; };
+		C4667C401FF5ECEF005B7F50 /* XXRACNetController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4667C3F1FF5ECEF005B7F50 /* XXRACNetController.m */; };
 		C4689A8C1FE0C63400CEE258 /* XXBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C4689A5D1FE0C63400CEE258 /* XXBaseClass.m */; };
 		C4689A8D1FE0C63400CEE258 /* NSArray+XXBeyond.m in Sources */ = {isa = PBXBuildFile; fileRef = C4689A611FE0C63400CEE258 /* NSArray+XXBeyond.m */; };
 		C4689A8E1FE0C63400CEE258 /* NSMutableAttributedString+XXAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = C4689A641FE0C63400CEE258 /* NSMutableAttributedString+XXAttributed.m */; };
@@ -705,6 +707,10 @@
 		C430D61C1FEB998F002783B2 /* AAYAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAYAxis.m; sourceTree = "<group>"; };
 		C45106681FE0C40100B97DA5 /* XXStudyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXStudyController.h; sourceTree = "<group>"; };
 		C45106691FE0C40100B97DA5 /* XXStudyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXStudyController.m; sourceTree = "<group>"; };
+		C4667C3A1FF5E245005B7F50 /* XXNetworking+RAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XXNetworking+RAC.h"; sourceTree = "<group>"; };
+		C4667C3B1FF5E245005B7F50 /* XXNetworking+RAC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XXNetworking+RAC.m"; sourceTree = "<group>"; };
+		C4667C3E1FF5ECEF005B7F50 /* XXRACNetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXRACNetController.h; sourceTree = "<group>"; };
+		C4667C3F1FF5ECEF005B7F50 /* XXRACNetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXRACNetController.m; sourceTree = "<group>"; };
 		C4689A5C1FE0C63400CEE258 /* XXBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXBaseClass.h; sourceTree = "<group>"; };
 		C4689A5D1FE0C63400CEE258 /* XXBaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXBaseClass.m; sourceTree = "<group>"; };
 		C4689A601FE0C63400CEE258 /* NSArray+XXBeyond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XXBeyond.h"; sourceTree = "<group>"; };
@@ -1718,6 +1724,7 @@
 		C427838F1FE0BEFF0027300B /* 自造轮子使用 */ = {
 			isa = PBXGroup;
 			children = (
+				C4667C3D1FF5ECD3005B7F50 /* RAC网络请示事例 */,
 				C4689B521FE0D11400CEE258 /* 录制视频 */,
 				C4689B5B1FE0D11400CEE258 /* pop手势与pop系统事件 */,
 				C42783931FE0BFBA0027300B /* XXMyWorksController.h */,
@@ -1848,6 +1855,15 @@
 				C430D61C1FEB998F002783B2 /* AAYAxis.m */,
 			);
 			path = AAOptionsModel;
+			sourceTree = "<group>";
+		};
+		C4667C3D1FF5ECD3005B7F50 /* RAC网络请示事例 */ = {
+			isa = PBXGroup;
+			children = (
+				C4667C3E1FF5ECEF005B7F50 /* XXRACNetController.h */,
+				C4667C3F1FF5ECEF005B7F50 /* XXRACNetController.m */,
+			);
+			path = "RAC网络请示事例";
 			sourceTree = "<group>";
 		};
 		C4689A5A1FE0C63400CEE258 /* General */ = {
@@ -2024,6 +2040,8 @@
 			children = (
 				C4689AB01FE0C9C700CEE258 /* XXNetworking.h */,
 				C4689AAF1FE0C9C700CEE258 /* XXNetworking.m */,
+				C4667C3A1FF5E245005B7F50 /* XXNetworking+RAC.h */,
+				C4667C3B1FF5E245005B7F50 /* XXNetworking+RAC.m */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -2617,6 +2635,7 @@
 				C4689B411FE0D10700CEE258 /* ScrollMianViewController.m in Sources */,
 				C426A0CE1FEE25DF0014B4D1 /* NSArray+GGGraphics.m in Sources */,
 				C426A1291FEE26B20014B4D1 /* XXGGChartController.m in Sources */,
+				C4667C3C1FF5E245005B7F50 /* XXNetworking+RAC.m in Sources */,
 				C430D61D1FEB998F002783B2 /* AAChartModel.m in Sources */,
 				C430D61E1FEB998F002783B2 /* AAChartView.m in Sources */,
 				C4689B701FE0D69F00CEE258 /* OOAliyunManager.m in Sources */,
@@ -2720,6 +2739,7 @@
 				C426A0A21FEE25DF0014B4D1 /* BarData.m in Sources */,
 				C4689A8C1FE0C63400CEE258 /* XXBaseClass.m in Sources */,
 				C4689B441FE0D10700CEE258 /* ScrollSubTwoViewController.m in Sources */,
+				C4667C401FF5ECEF005B7F50 /* XXRACNetController.m in Sources */,
 				C426A11E1FEE25DF0014B4D1 /* ltablib.c in Sources */,
 				C426A0A11FEE25DF0014B4D1 /* NumberData.m in Sources */,
 				C4689B451FE0D10700CEE258 /* OOOPerationCuston.m in Sources */,

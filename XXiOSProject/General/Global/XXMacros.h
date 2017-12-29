@@ -16,12 +16,17 @@
 /** 屏幕高度 **/
 #define M_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
-/** 顶部栏高度 **/
-#define  M_TOPBAR_HEIGHT 64
+#define M_STATUSBAR_HEIGHT [[UIApplication sharedApplication] statusBarFrame].size.height
+#define M_NAVBAR_HEIGHT 44.0
 
 /** 顶部栏高度 **/
-#define  M_TARBAR_HEIGHT 49
+#define  M_TOPBAR_HEIGHT (M_STATUSBAR_HEIGHT + M_NAVBAR_HEIGHT)
+/** 顶部栏高度 **/
+#define  M_TARBAR_HEIGHT ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:49)
 
+
+#define TabBarHeight
+#define kTopHeight
 // 计算自适应高度
 #define  M_RECT_HEIGHT(number)         (Screen_Width / 375.0) * number
 
