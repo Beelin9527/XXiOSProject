@@ -204,6 +204,7 @@
 		C430D63F1FEB998F002783B2 /* AATooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = C430D6181FEB998F002783B2 /* AATooltip.m */; };
 		C430D6401FEB998F002783B2 /* AAXAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = C430D61A1FEB998F002783B2 /* AAXAxis.m */; };
 		C430D6411FEB998F002783B2 /* AAYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = C430D61C1FEB998F002783B2 /* AAYAxis.m */; };
+		C4315DEC200DE7920026D3E8 /* XXAuthorizationStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4315DEB200DE7920026D3E8 /* XXAuthorizationStatusManager.m */; };
 		C451066A1FE0C40100B97DA5 /* XXStudyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45106691FE0C40100B97DA5 /* XXStudyController.m */; };
 		C4667C3C1FF5E245005B7F50 /* XXNetworking+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4667C3B1FF5E245005B7F50 /* XXNetworking+RAC.m */; };
 		C4667C401FF5ECEF005B7F50 /* XXRACNetController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4667C3F1FF5ECEF005B7F50 /* XXRACNetController.m */; };
@@ -705,6 +706,8 @@
 		C430D61A1FEB998F002783B2 /* AAXAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAXAxis.m; sourceTree = "<group>"; };
 		C430D61B1FEB998F002783B2 /* AAYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAYAxis.h; sourceTree = "<group>"; };
 		C430D61C1FEB998F002783B2 /* AAYAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAYAxis.m; sourceTree = "<group>"; };
+		C4315DEA200DE7920026D3E8 /* XXAuthorizationStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXAuthorizationStatusManager.h; sourceTree = "<group>"; };
+		C4315DEB200DE7920026D3E8 /* XXAuthorizationStatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXAuthorizationStatusManager.m; sourceTree = "<group>"; };
 		C45106681FE0C40100B97DA5 /* XXStudyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXStudyController.h; sourceTree = "<group>"; };
 		C45106691FE0C40100B97DA5 /* XXStudyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXStudyController.m; sourceTree = "<group>"; };
 		C4667C3A1FF5E245005B7F50 /* XXNetworking+RAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XXNetworking+RAC.h"; sourceTree = "<group>"; };
@@ -2289,6 +2292,8 @@
 		C4689B691FE0D69F00CEE258 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				C4315DEA200DE7920026D3E8 /* XXAuthorizationStatusManager.h */,
+				C4315DEB200DE7920026D3E8 /* XXAuthorizationStatusManager.m */,
 				C4689B6A1FE0D69F00CEE258 /* OOAliyunManager.h */,
 				C4689B6B1FE0D69F00CEE258 /* OOAliyunManager.m */,
 				C4689B6C1FE0D69F00CEE258 /* XXFileManager.h */,
@@ -2621,6 +2626,7 @@
 				C426A0BE1FEE25DF0014B4D1 /* BarCanvas.m in Sources */,
 				C426A1081FEE25DF0014B4D1 /* lcorolib.c in Sources */,
 				C426A1051FEE25DF0014B4D1 /* lbaselib.c in Sources */,
+				C4315DEC200DE7920026D3E8 /* XXAuthorizationStatusManager.m in Sources */,
 				C426A09C1FEE25DF0014B4D1 /* LineChart.m in Sources */,
 				C4689B681FE0D11400CEE258 /* OOPopTwoViewController.m in Sources */,
 				C426A1191FEE25DF0014B4D1 /* lparser.c in Sources */,
