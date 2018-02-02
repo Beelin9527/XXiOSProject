@@ -10,6 +10,10 @@
 		2B2957D984A1A5358330F657 /* libPods-XXiOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */; };
 		8E25BB631FB09B7400851A68 /* XXZhaoSiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25BB621FB09B7400851A68 /* XXZhaoSiViewController.m */; };
 		8E830E2F1F62FCF200505DA3 /* 123.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E830E2E1F62FCF200505DA3 /* 123.json */; };
+		8ECE32372024194B00228D14 /* XXRSAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE32362024194B00228D14 /* XXRSAController.m */; };
+		8ECE323920241A4900228D14 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECE323820241A3600228D14 /* Security.framework */; };
+		8ECE33E02024360B00228D14 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE33DE2024360B00228D14 /* RSA.m */; };
+		8ECE33E3202436B400228D14 /* XXRSAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE33E2202436B400228D14 /* XXRSAManager.m */; };
 		8EF0E77B1EEA822D00A04F82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77A1EEA822D00A04F82 /* main.m */; };
 		8EF0E77E1EEA822D00A04F82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0E77D1EEA822D00A04F82 /* AppDelegate.m */; };
 		8EF0E7861EEA822D00A04F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0E7851EEA822D00A04F82 /* Assets.xcassets */; };
@@ -310,6 +314,13 @@
 		8E25BB611FB09B7400851A68 /* XXZhaoSiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXZhaoSiViewController.h; sourceTree = "<group>"; };
 		8E25BB621FB09B7400851A68 /* XXZhaoSiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXZhaoSiViewController.m; sourceTree = "<group>"; };
 		8E830E2E1F62FCF200505DA3 /* 123.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 123.json; sourceTree = "<group>"; };
+		8ECE32352024194B00228D14 /* XXRSAController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXRSAController.h; sourceTree = "<group>"; };
+		8ECE32362024194B00228D14 /* XXRSAController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXRSAController.m; sourceTree = "<group>"; };
+		8ECE323820241A3600228D14 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8ECE33DE2024360B00228D14 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		8ECE33DF2024360B00228D14 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		8ECE33E1202436B400228D14 /* XXRSAManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXRSAManager.h; sourceTree = "<group>"; };
+		8ECE33E2202436B400228D14 /* XXRSAManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXRSAManager.m; sourceTree = "<group>"; };
 		8EF0E7761EEA822D00A04F82 /* XXiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF0E77A1EEA822D00A04F82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EF0E77C1EEA822D00A04F82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = XXiOSProject/AppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -874,6 +885,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ECE323920241A4900228D14 /* Security.framework in Frameworks */,
 				2B2957D984A1A5358330F657 /* libPods-XXiOSProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -927,6 +939,7 @@
 		8E95DC131EF10B8E00248A32 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				8ECE33DD2024360B00228D14 /* RSA */,
 				C4269F461FEE25DE0014B4D1 /* GGChartKit */,
 				C430D5D41FEB998F002783B2 /* AAChartKitLib */,
 				C4689AB91FE0CC4000CEE258 /* AIDatePickerController.h */,
@@ -943,6 +956,24 @@
 				8EF0E7851EEA822D00A04F82 /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		8ECE32342024191500228D14 /* RSA示例 */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE32352024194B00228D14 /* XXRSAController.h */,
+				8ECE32362024194B00228D14 /* XXRSAController.m */,
+			);
+			path = "RSA示例";
+			sourceTree = "<group>";
+		};
+		8ECE33DD2024360B00228D14 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE33DE2024360B00228D14 /* RSA.m */,
+				8ECE33DF2024360B00228D14 /* RSA.h */,
+			);
+			path = RSA;
 			sourceTree = "<group>";
 		};
 		8EF0E76D1EEA822D00A04F82 = {
@@ -1727,6 +1758,7 @@
 		C427838F1FE0BEFF0027300B /* 自造轮子使用 */ = {
 			isa = PBXGroup;
 			children = (
+				8ECE32342024191500228D14 /* RSA示例 */,
 				C4667C3D1FF5ECD3005B7F50 /* RAC网络请示事例 */,
 				C4689B521FE0D11400CEE258 /* 录制视频 */,
 				C4689B5B1FE0D11400CEE258 /* pop手势与pop系统事件 */,
@@ -2302,6 +2334,8 @@
 				C4689B6F1FE0D69F00CEE258 /* XXLocationManager.m */,
 				C4853D6E1FF223E900D2B300 /* XXUserInfoManager.h */,
 				C4853D6F1FF223E900D2B300 /* XXUserInfoManager.m */,
+				8ECE33E1202436B400228D14 /* XXRSAManager.h */,
+				8ECE33E2202436B400228D14 /* XXRSAManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -2331,6 +2365,7 @@
 		DE93F45DDBDB7CB84DF0FFC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8ECE323820241A3600228D14 /* Security.framework */,
 				13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */,
 			);
 			name = Frameworks;
@@ -2563,6 +2598,7 @@
 				C4689B631FE0D11400CEE258 /* OOVideoPlayView.m in Sources */,
 				C426A0A71FEE25DF0014B4D1 /* LineData.m in Sources */,
 				C430D6411FEB998F002783B2 /* AAYAxis.m in Sources */,
+				8ECE33E3202436B400228D14 /* XXRSAManager.m in Sources */,
 				C426A0E11FEE25DF0014B4D1 /* GGLine.m in Sources */,
 				C4689B4B1FE0D10700CEE258 /* OOGraphicsView.m in Sources */,
 				C426A0EE1FEE25DF0014B4D1 /* KDJLayer.m in Sources */,
@@ -2593,6 +2629,7 @@
 				C4689B661FE0D11400CEE258 /* OOPopOneViewController.m in Sources */,
 				C426A0BF1FEE25DF0014B4D1 /* CenterCanvas.m in Sources */,
 				C426A0E91FEE25DF0014B4D1 /* ATRLayer.m in Sources */,
+				8ECE33E02024360B00228D14 /* RSA.m in Sources */,
 				C426A0E21FEE25DF0014B4D1 /* GGPie.m in Sources */,
 				C430D6391FEB998F002783B2 /* AASeries.m in Sources */,
 				C42783991FE0C0FA0027300B /* XXFrameworkController.m in Sources */,
@@ -2718,6 +2755,7 @@
 				C4689AA41FE0C75E00CEE258 /* XXTableView.m in Sources */,
 				C4689A931FE0C63400CEE258 /* UIImage+XXColor.m in Sources */,
 				C426A1251FEE25DF0014B4D1 /* LuaExportMetaData.m in Sources */,
+				8ECE32372024194B00228D14 /* XXRSAController.m in Sources */,
 				C4689B501FE0D10700CEE258 /* OORunTimeController.m in Sources */,
 				C430D6361FEB998F002783B2 /* AAPie.m in Sources */,
 				C426A1111FEE25DF0014B4D1 /* liolib.c in Sources */,
@@ -2948,10 +2986,15 @@
 				INFOPLIST_FILE = XXiOSProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XXiOSProject/Vendor/openssl/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.xx.XXiOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 			};
 			name = Debug;
 		};
@@ -2968,10 +3011,15 @@
 				INFOPLIST_FILE = XXiOSProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XXiOSProject/Vendor/openssl/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.xx.XXiOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}";
 			};
 			name = Release;
 		};
