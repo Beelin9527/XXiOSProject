@@ -9,12 +9,6 @@
 #import "XXRSAManager.h"
 #import "RSA.h"
 
-#define DocumentsDir [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
-#define RSAPublicKeyPath [DocumentsDir stringByAppendingPathComponent:@"publicKey"]
-
-#define M_PATH_DOCUMENT [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
-#define M_PATH_USERINFO [M_PATH_DOCUMENT stringByAppendingPathComponent:@"userInfo"]
-
 @implementation XXRSAManager
 {
     RSA *_rsaPublic;
@@ -33,26 +27,7 @@
 
 
 - (BOOL)savePublicKey:(NSString *)publicKey {
-    NSString *publicKeyStr = publicKey;
-    NSMutableString *result = [NSMutableString string];
-    [result appendString:@"-----BEGIN PUBLIC KEY-----\n"];
-    int count = 0;
-    for (int i = 0; i < [publicKeyStr length]; ++i) {
-        unichar c = [publicKeyStr characterAtIndex:i];
-        if (c == '\n' || c == '\r') {
-            continue;
-        }
-        [result appendFormat:@"%c", c];
-        if (++count == 64) {
-            [result appendString:@"\n"];
-            count = 0;
-        }
-    }
-    [result appendString:@"\n-----END PUBLIC KEY-----"];
-
-    [[NSUserDefaults standardUserDefaults] setObject:result forKey:@"publicKey"];
-    
-   
+    [[NSUserDefaults standardUserDefaults] setObject:publicKey forKey:@"publicKey"];
     return YES;
     
 }
