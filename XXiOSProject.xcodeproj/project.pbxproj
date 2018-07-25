@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		2B2957D984A1A5358330F657 /* libPods-XXiOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */; };
 		8E25BB631FB09B7400851A68 /* XXZhaoSiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25BB621FB09B7400851A68 /* XXZhaoSiViewController.m */; };
+		8E7FA41720FD9E9500F0338A /* UIViewController+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FA41620FD9E9500F0338A /* UIViewController+TableView.m */; };
+		8E7FA42220FF19A600F0338A /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FA42020FF19A500F0338A /* UIViewController+Tracking.m */; };
+		8E7FA42D2101847100F0338A /* XXCFRunLoopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FA42C2101847100F0338A /* XXCFRunLoopController.m */; };
+		8E7FA4702107097D00F0338A /* follow.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8E7FA46F2107097D00F0338A /* follow.svg */; };
+		8E7FA47621082A7D00F0338A /* UIImage+svgImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FA47521082A7D00F0338A /* UIImage+svgImage.m */; };
+		8E7FA47D2108803A00F0338A /* XXSVGKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FA47C2108803A00F0338A /* XXSVGKitViewController.m */; };
 		8E830E2F1F62FCF200505DA3 /* 123.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E830E2E1F62FCF200505DA3 /* 123.json */; };
 		8ECE32372024194B00228D14 /* XXRSAController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE32362024194B00228D14 /* XXRSAController.m */; };
 		8ECE323920241A4900228D14 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECE323820241A3600228D14 /* Security.framework */; };
@@ -313,6 +319,18 @@
 		88B1A296F7304A9BAE15F716 /* Pods-XXiOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXiOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject.release.xcconfig"; sourceTree = "<group>"; };
 		8E25BB611FB09B7400851A68 /* XXZhaoSiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXZhaoSiViewController.h; sourceTree = "<group>"; };
 		8E25BB621FB09B7400851A68 /* XXZhaoSiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXZhaoSiViewController.m; sourceTree = "<group>"; };
+		8E7FA41520FD9E9400F0338A /* UIViewController+TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TableView.h"; sourceTree = "<group>"; };
+		8E7FA41620FD9E9500F0338A /* UIViewController+TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TableView.m"; sourceTree = "<group>"; };
+		8E7FA42020FF19A500F0338A /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
+		8E7FA42120FF19A600F0338A /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		8E7FA42B2101847100F0338A /* XXCFRunLoopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXCFRunLoopController.h; sourceTree = "<group>"; };
+		8E7FA42C2101847100F0338A /* XXCFRunLoopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXCFRunLoopController.m; sourceTree = "<group>"; };
+		8E7FA46F2107097D00F0338A /* follow.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = follow.svg; sourceTree = "<group>"; };
+		8E7FA4712107135400F0338A /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7FA47421082A7D00F0338A /* UIImage+svgImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+svgImage.h"; sourceTree = "<group>"; };
+		8E7FA47521082A7D00F0338A /* UIImage+svgImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+svgImage.m"; sourceTree = "<group>"; };
+		8E7FA47B2108803A00F0338A /* XXSVGKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXSVGKitViewController.h; sourceTree = "<group>"; };
+		8E7FA47C2108803A00F0338A /* XXSVGKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXSVGKitViewController.m; sourceTree = "<group>"; };
 		8E830E2E1F62FCF200505DA3 /* 123.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 123.json; sourceTree = "<group>"; };
 		8ECE32352024194B00228D14 /* XXRSAController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXRSAController.h; sourceTree = "<group>"; };
 		8ECE32362024194B00228D14 /* XXRSAController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXRSAController.m; sourceTree = "<group>"; };
@@ -951,6 +969,7 @@
 		8E95DC161EF10BAA00248A32 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				8E7FA46F2107097D00F0338A /* follow.svg */,
 				C4689ABB1FE0CCC900CEE258 /* Province.plist */,
 				8E830E2E1F62FCF200505DA3 /* 123.json */,
 				8EF0E7851EEA822D00A04F82 /* Assets.xcassets */,
@@ -1779,6 +1798,8 @@
 				C42783981FE0C0FA0027300B /* XXFrameworkController.m */,
 				C427839A1FE0C11D0027300B /* XXRACController.h */,
 				C427839B1FE0C11D0027300B /* XXRACController.m */,
+				8E7FA47B2108803A00F0338A /* XXSVGKitViewController.h */,
+				8E7FA47C2108803A00F0338A /* XXSVGKitViewController.m */,
 			);
 			path = "格物致知";
 			sourceTree = "<group>";
@@ -1995,6 +2016,8 @@
 			children = (
 				C4689A711FE0C63400CEE258 /* UIImage+XXColor.h */,
 				C4689A721FE0C63400CEE258 /* UIImage+XXColor.m */,
+				8E7FA47421082A7D00F0338A /* UIImage+svgImage.h */,
+				8E7FA47521082A7D00F0338A /* UIImage+svgImage.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -2022,6 +2045,10 @@
 		C4689A791FE0C63400CEE258 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8E7FA42120FF19A600F0338A /* UIViewController+Tracking.h */,
+				8E7FA42020FF19A500F0338A /* UIViewController+Tracking.m */,
+				8E7FA41520FD9E9400F0338A /* UIViewController+TableView.h */,
+				8E7FA41620FD9E9500F0338A /* UIViewController+TableView.m */,
 				C4689A7A1FE0C63400CEE258 /* UIViewController+XXShowCameraSheet.h */,
 				C4689A7B1FE0C63400CEE258 /* UIViewController+XXShowCameraSheet.m */,
 				C4689A7C1FE0C63400CEE258 /* UIViewController+XXTelephone.h */,
@@ -2143,6 +2170,8 @@
 				C4689AE01FE0D10500CEE258 /* OORunloopController.h */,
 				C4689AE11FE0D10500CEE258 /* OORunloopController.m */,
 				C4689AE21FE0D10500CEE258 /* OORunloopController.xib */,
+				8E7FA42B2101847100F0338A /* XXCFRunLoopController.h */,
+				8E7FA42C2101847100F0338A /* XXCFRunLoopController.m */,
 			);
 			path = Runloop;
 			sourceTree = "<group>";
@@ -2365,6 +2394,7 @@
 		DE93F45DDBDB7CB84DF0FFC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E7FA4712107135400F0338A /* libCocoaLumberjack.a */,
 				8ECE323820241A3600228D14 /* Security.framework */,
 				13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */,
 			);
@@ -2382,7 +2412,6 @@
 				8EF0E7721EEA822D00A04F82 /* Sources */,
 				8EF0E7731EEA822D00A04F82 /* Frameworks */,
 				8EF0E7741EEA822D00A04F82 /* Resources */,
-				DEC1F6B93D5F47562FE2353B /* [CP] Embed Pods Frameworks */,
 				37564F35282BEEC31E3EBE01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -2501,6 +2530,7 @@
 				C426A0F81FEE25DF0014B4D1 /* BOLL.lua in Resources */,
 				C426A0FF1FEE25DF0014B4D1 /* MIKE.lua in Resources */,
 				C430D6221FEB998F002783B2 /* AADrilldown.js in Resources */,
+				8E7FA4702107097D00F0338A /* follow.svg in Resources */,
 				C426A0F61FEE25DF0014B4D1 /* ATR.lua in Resources */,
 				C430D6231FEB998F002783B2 /* AAFunnel.js in Resources */,
 				C430D6271FEB998F002783B2 /* AAJQueryLibrary.js in Resources */,
@@ -2558,26 +2588,11 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DEC1F6B93D5F47562FE2353B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2602,6 +2617,7 @@
 				C426A0E11FEE25DF0014B4D1 /* GGLine.m in Sources */,
 				C4689B4B1FE0D10700CEE258 /* OOGraphicsView.m in Sources */,
 				C426A0EE1FEE25DF0014B4D1 /* KDJLayer.m in Sources */,
+				8E7FA47D2108803A00F0338A /* XXSVGKitViewController.m in Sources */,
 				C426A0C91FEE25DF0014B4D1 /* DKLineScaler.m in Sources */,
 				C426A0B81FEE25DF0014B4D1 /* BarAnimationsManager.m in Sources */,
 				C4689A991FE0C63400CEE258 /* XXGuideController.m in Sources */,
@@ -2703,6 +2719,7 @@
 				C426A0F31FEE25DF0014B4D1 /* RSILayer.m in Sources */,
 				C430D63D1FEB998F002783B2 /* AASubtitle.m in Sources */,
 				C426A1101FEE25DF0014B4D1 /* linit.c in Sources */,
+				8E7FA41720FD9E9500F0338A /* UIViewController+TableView.m in Sources */,
 				C426A0D31FEE25DF0014B4D1 /* GGAxisRenderer.m in Sources */,
 				C4689A921FE0C63400CEE258 /* UIButton+XXSwapPlace.m in Sources */,
 				C4689B671FE0D11400CEE258 /* OOPopThreeViewController.m in Sources */,
@@ -2726,6 +2743,7 @@
 				C4689AC21FE0CE5D00CEE258 /* UIActionSheet+camera.m in Sources */,
 				C426A10B1FEE25DF0014B4D1 /* ldebug.c in Sources */,
 				C4689B3F1FE0D10700CEE258 /* OONSCacheController.m in Sources */,
+				8E7FA47621082A7D00F0338A /* UIImage+svgImage.m in Sources */,
 				C430D6341FEB998F002783B2 /* AAOptions.m in Sources */,
 				C430D62F1FEB998F002783B2 /* AAItemStyle.m in Sources */,
 				C426A0D71FEE25DF0014B4D1 /* GGNumberRenderer.m in Sources */,
@@ -2783,6 +2801,7 @@
 				C426A0A21FEE25DF0014B4D1 /* BarData.m in Sources */,
 				C4689A8C1FE0C63400CEE258 /* XXBaseClass.m in Sources */,
 				C4689B441FE0D10700CEE258 /* ScrollSubTwoViewController.m in Sources */,
+				8E7FA42220FF19A600F0338A /* UIViewController+Tracking.m in Sources */,
 				C4667C401FF5ECEF005B7F50 /* XXRACNetController.m in Sources */,
 				C426A11E1FEE25DF0014B4D1 /* ltablib.c in Sources */,
 				C426A0A11FEE25DF0014B4D1 /* NumberData.m in Sources */,
@@ -2811,6 +2830,7 @@
 				C426A0B11FEE25DF0014B4D1 /* PieDataSet.m in Sources */,
 				C4689B311FE0D10700CEE258 /* OOKVOPerson.m in Sources */,
 				C426A0A01FEE25DF0014B4D1 /* CenterData.m in Sources */,
+				8E7FA42D2101847100F0338A /* XXCFRunLoopController.m in Sources */,
 				C426A1021FEE25DF0014B4D1 /* CrissCrossQueryView.m in Sources */,
 				C4689B461FE0D10700CEE258 /* OOOperationQueuesController.m in Sources */,
 				C426A11A1FEE25DF0014B4D1 /* lstate.c in Sources */,

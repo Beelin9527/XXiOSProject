@@ -55,4 +55,43 @@
     }
     return gradientBG;
 }
+
+
++ (UIImage *)imageWithGradient:(UIImage *)image startColor:(UIColor *)startColor endColor:(UIColor *)endColor {
+    UIGraphicsBeginImageContextWithOptions(image.size, NO, image.scale);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextTranslateCTM(context, 0, image.size.height);
+    CGContextScaleCTM(context, 1.0, -1.0);
+    
+    CGContextSetBlendMode(context, kCGBlendModeNormal);
+    CGRect rect = CGRectMake(0, 0, image.size.width, image.size.height);
+    CGContextDrawImage(context, rect, image.CGImage);
+    
+    // Create gradient
+    NSArray *colors = [NSArray arrayWithObjects:(id)endColor.CGColor, (id)startColor.CGColor, nil];
+    CGColorSpaceRef space = CGColorSpaceCreateDeviceRGB();
+    CGGradientRef gradient = CGGradientCreateWithColors(space, (CFArrayRef)colors, NULL);
+    
+    // Apply gradient
+    CGContextClipToMask(context, rect, image.CGImage);
+    CGContextDrawLinearGradient(context, gradient, CGPointMake(0,0), CGPointMake(0, image.size.height), 0);
+    UIImage *gradientImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    CGGradientRelease(gradient);
+    CGColorSpaceRelease(space);
+    
+    return gradientImage;
+}
+
+- (UIImage *)xx_setWithColor:(UIColor *)color {
+    CGRect rect = CGRectMake(0.0f, 0.0f, self.size.width, self.size.height);
+    UIGraphicsBeginImageContext(self.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
 @end

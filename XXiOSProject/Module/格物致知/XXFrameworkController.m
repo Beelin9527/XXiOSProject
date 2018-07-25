@@ -13,6 +13,8 @@
 #import "XXAAChartKitController.h"
 #import "XXGGChartController.h"
 #import "XXLKDBController.h"
+#import "XXSVGKitViewController.h"
+
 @interface XXFrameworkController ()<UITableViewDelegate, UITableViewDataSource>
 @property (strong, nonatomic) UITableView *tableView;
 
@@ -68,6 +70,7 @@
                     NSStringFromClass([XXAAChartKitController class]) : @"AAChartKit",
                    NSStringFromClass([XXGGChartController class]) : @"GGChart",
                   NSStringFromClass([XXLKDBController class]) : @"LKDB",
+                   NSStringFromClass([XXSVGKitViewController class]) : @"SVG",
                   
                   };
     }

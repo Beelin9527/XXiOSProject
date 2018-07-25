@@ -10,6 +10,8 @@
 
 #import "XXTabBarController.h"
 
+#import "JLRoutes.h"
+
 #import "AppDelegate+XXExtension.h"
 @interface AppDelegate ()
 
@@ -28,6 +30,12 @@
     self.window = window;
     
     [self xx_navigationGlobalConfig];
+
+    [JLRoutes.globalRoutes addRoute:@"/:controller" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
+        NSString *c = parameters[@"controller"];
+        [self.window.rootViewController presentViewController:[[NSClassFromString(c) alloc] init] animated:YES completion:nil];
+        return YES;
+    }];
     
     return YES;
 }
@@ -59,6 +67,12 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    NSLog(@"从哪个app跳转而来 Bundle ID: %@", sourceApplication);
+    NSLog(@"URL scheme:%@", [url scheme]);
+    
+    return [JLRoutes routeURL:url];
+    return YES;
+}
 
 @end

@@ -44,7 +44,24 @@ typedef NS_ENUM(NSInteger, UIImageGradientDirection) {
  *
  *  @return 渐变的图片
  */
+
+
 + (UIImage *)xx_gradientImageWithBounds:(CGRect)bounds
                               direction:(UIImageGradientDirection)direction
                                  colors:(NSArray *)colors;
+
+
+/**
+ 获取渐变的图片
+ */
++ (UIImage *)imageWithGradient:(UIImage *)image
+                    startColor:(UIColor *)startColor
+                      endColor:(UIColor *)endColor;
+/**
+ 更改图片颜色
+
+ @param color 颜色
+ @return image
+ */
+- (UIImage *)xx_setWithColor:(UIColor *)color;
 @end
