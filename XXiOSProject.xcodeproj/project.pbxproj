@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2B2957D984A1A5358330F657 /* libPods-XXiOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */; };
+		8E1B58A221F0AB3600857E1F /* XFInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B589D21F0AB3600857E1F /* XFInteractiveTransition.m */; };
+		8E1B58A321F0AB3600857E1F /* XFAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B589F21F0AB3600857E1F /* XFAnimatedTransitioning.m */; };
+		8E1B58A421F0AB3600857E1F /* XFAnimatedTransitioningBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B58A021F0AB3600857E1F /* XFAnimatedTransitioningBaseViewController.m */; };
+		8E219EE72202943E0063687E /* NSAttributedString+XXMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E219EE62202943E0063687E /* NSAttributedString+XXMake.m */; };
 		8E25BB631FB09B7400851A68 /* XXZhaoSiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E25BB621FB09B7400851A68 /* XXZhaoSiViewController.m */; };
 		8E7FA41720FD9E9500F0338A /* UIViewController+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FA41620FD9E9500F0338A /* UIViewController+TableView.m */; };
 		8E7FA42220FF19A600F0338A /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7FA42020FF19A500F0338A /* UIViewController+Tracking.m */; };
@@ -317,6 +321,14 @@
 /* Begin PBXFileReference section */
 		13A3B9E386F26568EE1A4252 /* libPods-XXiOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XXiOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88B1A296F7304A9BAE15F716 /* Pods-XXiOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXiOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXiOSProject/Pods-XXiOSProject.release.xcconfig"; sourceTree = "<group>"; };
+		8E1B589C21F0AB3600857E1F /* XFAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFAnimatedTransitioning.h; sourceTree = "<group>"; };
+		8E1B589D21F0AB3600857E1F /* XFInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFInteractiveTransition.m; sourceTree = "<group>"; };
+		8E1B589E21F0AB3600857E1F /* XFAnimatedTransitioningBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFAnimatedTransitioningBaseViewController.h; sourceTree = "<group>"; };
+		8E1B589F21F0AB3600857E1F /* XFAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFAnimatedTransitioning.m; sourceTree = "<group>"; };
+		8E1B58A021F0AB3600857E1F /* XFAnimatedTransitioningBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFAnimatedTransitioningBaseViewController.m; sourceTree = "<group>"; };
+		8E1B58A121F0AB3600857E1F /* XFInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFInteractiveTransition.h; sourceTree = "<group>"; };
+		8E219EE52202943E0063687E /* NSAttributedString+XXMake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+XXMake.h"; sourceTree = "<group>"; };
+		8E219EE62202943E0063687E /* NSAttributedString+XXMake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+XXMake.m"; sourceTree = "<group>"; };
 		8E25BB611FB09B7400851A68 /* XXZhaoSiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXZhaoSiViewController.h; sourceTree = "<group>"; };
 		8E25BB621FB09B7400851A68 /* XXZhaoSiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXZhaoSiViewController.m; sourceTree = "<group>"; };
 		8E7FA41520FD9E9400F0338A /* UIViewController+TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TableView.h"; sourceTree = "<group>"; };
@@ -932,6 +944,19 @@
 				88B1A296F7304A9BAE15F716 /* Pods-XXiOSProject.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E1B589B21F0AB3600857E1F /* ViewControllerAnimatedTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				8E1B589C21F0AB3600857E1F /* XFAnimatedTransitioning.h */,
+				8E1B589D21F0AB3600857E1F /* XFInteractiveTransition.m */,
+				8E1B589E21F0AB3600857E1F /* XFAnimatedTransitioningBaseViewController.h */,
+				8E1B589F21F0AB3600857E1F /* XFAnimatedTransitioning.m */,
+				8E1B58A021F0AB3600857E1F /* XFAnimatedTransitioningBaseViewController.m */,
+				8E1B58A121F0AB3600857E1F /* XFInteractiveTransition.h */,
+			);
+			path = ViewControllerAnimatedTransitioning;
 			sourceTree = "<group>";
 		};
 		8E25BB601FB09B4300851A68 /* 招式 */ = {
@@ -1980,6 +2005,8 @@
 				C4689A641FE0C63400CEE258 /* NSMutableAttributedString+XXAttributed.m */,
 				C4689A651FE0C63400CEE258 /* NSString+XXJudeg.h */,
 				C4689A661FE0C63400CEE258 /* NSString+XXJudeg.m */,
+				8E219EE52202943E0063687E /* NSAttributedString+XXMake.h */,
+				8E219EE62202943E0063687E /* NSAttributedString+XXMake.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -2111,6 +2138,7 @@
 		C4689A9D1FE0C66500CEE258 /* GeneralController */ = {
 			isa = PBXGroup;
 			children = (
+				8E1B589B21F0AB3600857E1F /* ViewControllerAnimatedTransitioning */,
 				C4689A9E1FE0C66500CEE258 /* QRCaptureController.h */,
 				C4689A9F1FE0C66500CEE258 /* QRCaptureController.m */,
 			);
@@ -2668,12 +2696,14 @@
 				C426A0D51FEE25DF0014B4D1 /* GGGridRenderer.m in Sources */,
 				C426A1241FEE25DF0014B4D1 /* LuaContext.m in Sources */,
 				C426A0BC1FEE25DF0014B4D1 /* GGPieLayer.m in Sources */,
+				8E1B58A421F0AB3600857E1F /* XFAnimatedTransitioningBaseViewController.m in Sources */,
 				C426A0991FEE25DF0014B4D1 /* BarChart.m in Sources */,
 				C426A0B51FEE25DF0014B4D1 /* RadarDataSet.m in Sources */,
 				C4689A941FE0C63400CEE258 /* UINavigationController+XXBackItem.m in Sources */,
 				C430D5D31FEB96CC002783B2 /* XXAAChartKitController.m in Sources */,
 				C426A11B1FEE25DF0014B4D1 /* lstring.c in Sources */,
 				C4689AA81FE0C81B00CEE258 /* NSDate+XXExtension.m in Sources */,
+				8E1B58A321F0AB3600857E1F /* XFAnimatedTransitioning.m in Sources */,
 				C4689B391FE0D10700CEE258 /* OOShakeController.m in Sources */,
 				C426A1031FEE25DF0014B4D1 /* lapi.c in Sources */,
 				C426A0BE1FEE25DF0014B4D1 /* BarCanvas.m in Sources */,
@@ -2724,6 +2754,7 @@
 				C4689A921FE0C63400CEE258 /* UIButton+XXSwapPlace.m in Sources */,
 				C4689B671FE0D11400CEE258 /* OOPopThreeViewController.m in Sources */,
 				C426A0D41FEE25DF0014B4D1 /* GGCircleRenderer.m in Sources */,
+				8E219EE72202943E0063687E /* NSAttributedString+XXMake.m in Sources */,
 				C4689B651FE0D11400CEE258 /* OOVVIFileManager.m in Sources */,
 				C427839C1FE0C11D0027300B /* XXRACController.m in Sources */,
 				C426A0A81FEE25DF0014B4D1 /* LineDataSet.m in Sources */,
@@ -2817,6 +2848,7 @@
 				C426A0EF1FEE25DF0014B4D1 /* MACDLayer.m in Sources */,
 				C426A0D61FEE25DF0014B4D1 /* GGLineRenderer.m in Sources */,
 				C426A0C51FEE25DF0014B4D1 /* RadarCanvas.m in Sources */,
+				8E1B58A221F0AB3600857E1F /* XFInteractiveTransition.m in Sources */,
 				C430D62E1FEB998F002783B2 /* AADataLabels.m in Sources */,
 				C426A1181FEE25DF0014B4D1 /* loslib.c in Sources */,
 				C426A1091FEE25DF0014B4D1 /* lctype.c in Sources */,
